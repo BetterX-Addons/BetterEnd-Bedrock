@@ -144,7 +144,7 @@
             "minecraft:custom_components": [
                 "betterend:shadow_berry_seed"
             ],
-            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:loot": "loot_tables/shadow/shadow_berry_seed.json",
             "minecraft:destructible_by_explosion": true,
             "minecraft:destructible_by_mining": true,
             "minecraft:collision_box": false,

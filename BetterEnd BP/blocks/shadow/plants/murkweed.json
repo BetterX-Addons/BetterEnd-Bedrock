@@ -29,7 +29,7 @@
     ],
     "components": {
       "minecraft:custom_components": ["betterend:shadow_index", "betterend:murkweed"],
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/shadow/murkweed.json",
       "minecraft:tick": {
         "looping": true,
         "interval_range": [ 200, 200 ]

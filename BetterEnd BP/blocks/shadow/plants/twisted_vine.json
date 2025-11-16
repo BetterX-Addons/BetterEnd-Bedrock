@@ -67,7 +67,7 @@
     "components": {
       "tag:betterend:can_climb": {},
       "minecraft:custom_components": ["betterend:dense_vine"],
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/shadow/twisted_vine.json",
       "minecraft:geometry": "geometry.random_model2",
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": true,

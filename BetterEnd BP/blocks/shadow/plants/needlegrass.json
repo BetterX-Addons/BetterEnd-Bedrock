@@ -73,7 +73,7 @@
         "betterend:shadow_index",
         "betterend:particle_emitter"
       ],
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/shadow/needlegrass.json",
       "minecraft:tick": {
         "looping": true,
         "interval_range": [
