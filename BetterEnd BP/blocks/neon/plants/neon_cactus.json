@@ -214,6 +214,7 @@
 			}
 		],
 		"components": {
+			"minecraft:loot": "loot_tables/neon/neon_cactus.json",
 			"tag:offset:-12": {},
 			"tag:particle:betterend:desertic": {},
 			"minecraft:custom_components": [ "betterend:particle_emitter" ],
