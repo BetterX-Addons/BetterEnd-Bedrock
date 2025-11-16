@@ -1,9 +1,9 @@
 {
-  "format_version": "1.21.0",
+  "format_version": "1.21.50",
   "minecraft:block": {
     "description": {
       "identifier": "betterend:end_lotus_stem_plant",
-      "states": { // 0 stem, 1 stem roots, 2 stem top
+      "states": {
         "betterend:stem": [
           0,
           1,
@@ -149,7 +149,7 @@
           }
         ]
       },
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/megalakes/end_lotus_stem.json",
       "minecraft:geometry": "geometry.random_model2",
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": true,

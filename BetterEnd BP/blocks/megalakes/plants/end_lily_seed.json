@@ -1,9 +1,9 @@
 {
-  "format_version": "1.21.0",
+  "format_version": "1.21.50",
   "minecraft:block": {
     "description": {
       "identifier": "betterend:end_lily_seed",
-      "states": { // 4 roots, 5 stem, 6 leaf, 7 leaf small, 8 leaf big
+      "states": {
         "betterend:growth": [
           0,
           1,
@@ -365,7 +365,7 @@
           }
         ]
       },
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/megalakes/end_lily_seed.json",
       "minecraft:geometry": "geometry.random_model2",
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": true,

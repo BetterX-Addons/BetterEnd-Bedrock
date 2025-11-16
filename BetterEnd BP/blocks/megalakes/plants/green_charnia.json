@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.50",
     "minecraft:block": {
         "description": {
             "identifier": "betterend:green_charnia",
@@ -66,6 +66,7 @@
             }
         ],
         "components": {
+            "minecraft:loot": "loot_tables/megalakes/green_charnia.json",
             "minecraft:liquid_detection": {
                 "detection_rules": [
                     {

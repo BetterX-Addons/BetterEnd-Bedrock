@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.0",
+  "format_version": "1.21.50",
   "minecraft:block": {
     "description": {
       "identifier": "betterend:end_lotus_stem",
@@ -103,7 +103,7 @@
           }
         ]
       },
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/megalakes/end_lotus_stem.json",
       "minecraft:geometry": "geometry.end_lotus_stem_block",
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": true,
