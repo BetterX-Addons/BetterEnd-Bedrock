@@ -9,7 +9,7 @@
             }
         },
         "components": {
-            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:loot": "loot_tables/ores/amber_ore.json",
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 10
             },
