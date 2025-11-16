@@ -81,6 +81,7 @@
             }
         ],
         "components": {
+            "minecraft:loot": "loot_tables/lantern/flamaea.json",
             "minecraft:map_color": "#ec6d25",
             "minecraft:custom_components": [
                 "betterend:lucernia_index"

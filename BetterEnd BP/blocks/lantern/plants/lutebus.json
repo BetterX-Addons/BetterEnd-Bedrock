@@ -6,7 +6,7 @@
         },
         "components": {
             "minecraft:geometry": "geometry.random_model2",
-            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:loot": "loot_tables/lantern/lutebus.json",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "lutebus",

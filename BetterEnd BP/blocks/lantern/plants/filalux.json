@@ -79,7 +79,7 @@
         "size": [12, 16, 12]
       },
       "minecraft:flammable": true,
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/lantern/filalux.json",
       "minecraft:geometry": "geometry.random_model2"
     }
   }

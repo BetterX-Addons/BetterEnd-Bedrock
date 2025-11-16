@@ -57,6 +57,7 @@
       }
     ],
     "components": {
+      "minecraft:loot": "loot_tables/lantern/aurant_polypore.json",
       "minecraft:custom_components": ["betterend:lucernia_index"],
       "minecraft:flammable": false,
       "minecraft:destructible_by_explosion": true,

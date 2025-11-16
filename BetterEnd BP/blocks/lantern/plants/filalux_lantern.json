@@ -8,6 +8,7 @@
             }
         },
         "components": {
+          "minecraft:loot": "loot_tables/lantern/filalux_lantern.json",
             "tag:lantern": {},
             "minecraft:light_emission": 15,
             "minecraft:destructible_by_explosion": true,

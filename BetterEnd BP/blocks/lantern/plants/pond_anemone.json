@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.50",
     "minecraft:block": {
         "description": {
             "identifier": "betterend:pond_anemone",
@@ -66,6 +66,7 @@
             }
         ],
         "components": {
+            "minecraft:loot": "loot_tables/lantern/pond_anemone.json",
             "minecraft:liquid_detection": {
                 "detection_rules": [
                     {

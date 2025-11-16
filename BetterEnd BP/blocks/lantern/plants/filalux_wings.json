@@ -106,7 +106,7 @@
             "minecraft:destructible_by_mining": true,
             "minecraft:flammable": true,
             "minecraft:light_emission": 15,
-            "minecraft:loot": "loot_tables/empty.json"
+            "minecraft:loot": "loot_tables/lantern/filalux_wings.json"
         }
     }
 }

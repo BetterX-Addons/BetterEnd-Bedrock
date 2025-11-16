@@ -16,7 +16,8 @@
           "minecraft:placement_filter": {
             "conditions": [
               {
-                "allowed_faces": ["down"]
+                "allowed_faces": ["down"],
+                
               }
             ]
           },

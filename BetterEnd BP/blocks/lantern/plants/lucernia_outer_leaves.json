@@ -116,6 +116,7 @@
       }
     ],
     "components": {
+      "minecraft:loot": "loot_tables/lantern/lucernia_outer_leaves.json",
       "minecraft:map_color": "#b43a13",
       "minecraft:selection_box": {
         "origin": [-8, 0, -8],
