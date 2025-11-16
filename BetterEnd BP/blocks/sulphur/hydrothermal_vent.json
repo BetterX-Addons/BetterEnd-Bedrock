@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.50",
     "minecraft:block": {
         "description": {
             "identifier": "betterend:hydrothermal_vent",
@@ -64,6 +64,7 @@
             }
         ],
         "components": {
+            "minecraft:loot": "loot_tables/sulphur/hydrothermal_vent.json",
             "minecraft:liquid_detection": {
                 "detection_rules": [
                     {

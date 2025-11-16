@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.0",
+	"format_version": "1.21.50",
 	"minecraft:block": {
 		"description": {
 			"identifier": "betterend:hydralux_sapling",
@@ -258,6 +258,7 @@
 			}
 		],
 		"components": {
+			"minecraft:loot": "loot_tables/sulphur/hydralux_flower.json",
 			"minecraft:liquid_detection": {
                 "detection_rules": [
                     {

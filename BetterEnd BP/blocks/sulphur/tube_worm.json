@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.50",
     "minecraft:block": {
         "description": {
             "identifier": "betterend:tube_worm",
@@ -88,6 +88,7 @@
             }
         ],
         "components": {
+            "minecraft:loot": "loot_tables/sulphur/tube_worm.json",
             "tag:offset:-12": {},
             "minecraft:liquid_detection": {
                 "detection_rules": [
