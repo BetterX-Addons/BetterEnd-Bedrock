@@ -90,7 +90,7 @@
             "minecraft:custom_components": [
                 "betterend:umbra_index"
             ],
-            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:loot": "loot_tables/umbra/flammalix.json",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "flammalix",
