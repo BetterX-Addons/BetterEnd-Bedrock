@@ -201,7 +201,7 @@
 			}
 		],
 		"components": {
-			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:loot": "loot_tables/umbrella/jungle_fern.json",
 			"minecraft:placement_filter": {
 				"conditions": [
 					{

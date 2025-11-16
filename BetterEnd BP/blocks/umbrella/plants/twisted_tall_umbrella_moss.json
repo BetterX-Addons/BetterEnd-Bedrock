@@ -67,7 +67,7 @@
     "components": {
       "minecraft:map_color": "#c31efd",
       "minecraft:custom_components": ["betterend:foggy_index"],
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/umbrella/twisted_umbrella_moss.json",
       "minecraft:selection_box": true,
       "minecraft:material_instances": {
         "*": {

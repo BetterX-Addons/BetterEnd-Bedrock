@@ -119,7 +119,7 @@
     ],
     "components": {
       "minecraft:custom_components": ["betterend:jungle_index"],
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/umbrella/jungle_grass.json",
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": true,
       "minecraft:collision_box": false,
