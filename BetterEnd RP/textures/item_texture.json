@@ -510,6 +510,12 @@
       "textures": "textures/blocks/amberland/plants/amber_grass"
     },
     // Caves
+    "end_stone_stalactite": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_0"
+    },
+    "end_stone_stalactite_cavemoss": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_0"
+    },
     "magnula": {
       "textures": "textures/blocks/caves/magnula"
     },
