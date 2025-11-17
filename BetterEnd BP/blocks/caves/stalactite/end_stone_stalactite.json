@@ -1,0 +1,401 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:end_stone_stalactite",
+            "menu_category": {
+                "category": "nature"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            },
+            "states": {
+                "betterend:size": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'down'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            -90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:size') == 0",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -1.5,
+                            7,
+                            -8
+                        ],
+                        "size": [
+                            3,
+                            3,
+                            16
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -1.5,
+                            7,
+                            -8
+                        ],
+                        "size": [
+                            3,
+                            3,
+                            16
+                        ]
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "end_stone_stalactite_0",
+                            "face_dimming": true,
+                            "ambient_occlusion": true,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:size') == 1",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -1.5,
+                            6,
+                            -8
+                        ],
+                        "size": [
+                            3,
+                            4,
+                            16
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -1.5,
+                            6,
+                            -8
+                        ],
+                        "size": [
+                            3,
+                            4,
+                            16
+                        ]
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "end_stone_stalactite_1",
+                            "face_dimming": true,
+                            "ambient_occlusion": true,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:size') == 2",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -2,
+                            6,
+                            -8
+                        ],
+                        "size": [
+                            4,
+                            4,
+                            16
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -2,
+                            6,
+                            -8
+                        ],
+                        "size": [
+                            4,
+                            4,
+                            16
+                        ]
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "end_stone_stalactite_2",
+                            "face_dimming": true,
+                            "ambient_occlusion": true,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:size') == 3",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -2.5,
+                            5,
+                            -8
+                        ],
+                        "size": [
+                            5,
+                            6,
+                            16
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -2.5,
+                            5,
+                            -8
+                        ],
+                        "size": [
+                            5,
+                            6,
+                            16
+                        ]
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "end_stone_stalactite_3",
+                            "face_dimming": true,
+                            "ambient_occlusion": true,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:size') == 4",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -3,
+                            5,
+                            -8
+                        ],
+                        "size": [
+                            6,
+                            6,
+                            16
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -3,
+                            5,
+                            -8
+                        ],
+                        "size": [
+                            6,
+                            6,
+                            16
+                        ]
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "end_stone_stalactite_4",
+                            "face_dimming": true,
+                            "ambient_occlusion": true,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:size') == 5",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -3.5,
+                            5,
+                            -8
+                        ],
+                        "size": [
+                            7,
+                            7,
+                            16
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -3.5,
+                            5,
+                            -8
+                        ],
+                        "size": [
+                            7,
+                            7,
+                            16
+                        ]
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "end_stone_stalactite_5",
+                            "face_dimming": true,
+                            "ambient_occlusion": true,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:size') == 6",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            4,
+                            -8
+                        ],
+                        "size": [
+                            8,
+                            8,
+                            16
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -4,
+                            4,
+                            -8
+                        ],
+                        "size": [
+                            8,
+                            8,
+                            16
+                        ]
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "end_stone_stalactite_6",
+                            "face_dimming": true,
+                            "ambient_occlusion": true,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:size') == 7",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -5,
+                            3,
+                            -8
+                        ],
+                        "size": [
+                            10,
+                            10,
+                            16
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -5,
+                            3,
+                            -8
+                        ],
+                        "size": [
+                            10,
+                            10,
+                            16
+                        ]
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "end_stone_stalactite_7",
+                            "face_dimming": true,
+                            "ambient_occlusion": true,
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            }
+        ],
+        "components": {
+            "tag:stone": {},
+            "minecraft:geometry": "geometry.stalactite_up",
+            "tag:minecraft:stone_tier_destructible": {},
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:tick": {
+                "looping": true,
+                "interval_range": [
+                    20,
+                    40
+                ]
+            },
+            "minecraft:custom_components": [
+                "betterend:stalactite"
+            ],
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up",
+                            "down"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 3
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 4
+            },
+            "minecraft:flammable": false,
+            "minecraft:random_offset": {
+                "x": {
+                    "range": {
+                        "min": 1,
+                        "max": 2
+                    },
+                    "steps": 0
+                },
+                "z": {
+                    "range": {
+                        "min": 1,
+                        "max": 2
+                    },
+                    "steps": 0
+                }
+            }
+        }
+    }
+}

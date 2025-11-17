@@ -1718,6 +1718,55 @@
     },
     "smaragdant_crystal_top": {
       "textures": "textures/blocks/caves/smaragdant_crystal_top"
+    },
+    // Caves
+    "end_stone_stalactite_0": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_0"
+    },
+    "end_stone_stalactite_1": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_1"
+    },
+    "end_stone_stalactite_2": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_2"
+    },
+    "end_stone_stalactite_3": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_3"
+    },
+    "end_stone_stalactite_4": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_4"
+    },
+    "end_stone_stalactite_5": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_5"
+    },
+    "end_stone_stalactite_6": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_6"
+    },
+    "end_stone_stalactite_7": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_7"
+    },
+    "end_stone_stalactite_cavemoss_0": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_0"
+    },
+    "end_stone_stalactite_cavemoss_1": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_1"
+    },
+    "end_stone_stalactite_cavemoss_2": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_2"
+    },
+    "end_stone_stalactite_cavemoss_3": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_3"
+    },
+    "end_stone_stalactite_cavemoss_4": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_4"
+    },
+    "end_stone_stalactite_cavemoss_5": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_5"
+    },
+    "end_stone_stalactite_cavemoss_6": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_6"
+    },
+    "end_stone_stalactite_cavemoss_7": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_7"
     }
   }
 }
