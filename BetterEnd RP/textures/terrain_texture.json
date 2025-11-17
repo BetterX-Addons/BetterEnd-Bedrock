@@ -1720,6 +1720,33 @@
       "textures": "textures/blocks/caves/smaragdant_crystal_top"
     },
     // Caves
+    "cave_pumpkin_stem_0": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_stem_0"
+    },
+    "cave_pumpkin_stem_1": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_stem_1"
+    },
+    "cave_pumpkin_stem_2": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_stem_2"
+    },
+    "cave_pumpkin_stem_3": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_stem_3"
+    },
+    "cave_pumpkin_lantern_side": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_lantern_side"
+    },
+    "cave_pumpkin_lantern_bottom": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_lantern_bottom"
+    },
+    "cave_pumpkin_lantern_top": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_lantern_bottom"
+    },
+    "cave_pumpkin_top": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_top"
+    },
+    "cave_pumpkin_side": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_side"
+    },
     "end_stone_stalactite_0": {
       "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_0"
     },

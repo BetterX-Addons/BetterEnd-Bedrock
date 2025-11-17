@@ -516,6 +516,9 @@
     "end_stone_stalactite_cavemoss": {
       "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_0"
     },
+    "cave_pumpkin_seed": {
+      "textures": "textures/items/caves/cave_pumpkin_seed"
+    },
     "magnula": {
       "textures": "textures/blocks/caves/magnula"
     },

@@ -1,0 +1,238 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:cave_pumpkin_seed",
+      "states": {
+        "betterend:growth": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:growth') == 0",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -4,
+              0,
+              -4
+            ],
+            "size": [
+              8,
+              8,
+              8
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cave_pumpkin_stem_0",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 1",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -4.5,
+              0,
+              -4.5
+            ],
+            "size": [
+              9,
+              12,
+              9
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cave_pumpkin_stem_1",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 2",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              14,
+              12
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cave_pumpkin_stem_2",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 3",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              16,
+              12
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cave_pumpkin_stem_3",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 4",
+        "components": {
+          "minecraft:geometry": "geometry.cave_pumpkin_small",
+          "minecraft:selection_box": {
+            "origin": [
+              -4,
+              7,
+              -4
+            ],
+            "size": [
+              8,
+              9,
+              8
+            ]
+          },
+          "minecraft:collision_box": {
+            "origin": [
+              -4,
+              7,
+              -4
+            ],
+            "size": [
+              8,
+              9,
+              8
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cave_pumpkin_stem_0"
+            },
+            "cave_pumpkin_lantern_side": {
+              "texture": "cave_pumpkin_lantern_side",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "cave_pumpkin_lantern_bottom": {
+              "texture": "cave_pumpkin_lantern_bottom",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "cave_pumpkin_lantern_top": {
+              "texture": "cave_pumpkin_lantern_top",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "cave_pumpkin_side": {
+              "texture": "cave_pumpkin_lantern_side",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 5",
+        "components": {
+          "minecraft:geometry": "geometry.cave_pumpkin",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "cave_pumpkin_stem_0",
+              "render_method": "alpha_test"
+            },
+            "cave_pumpkin_lantern_side": {
+              "texture": "cave_pumpkin_lantern_side",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "cave_pumpkin_lantern_bottom": {
+              "texture": "cave_pumpkin_lantern_bottom",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "cave_pumpkin_lantern_top": {
+              "texture": "cave_pumpkin_lantern_top",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "cave_pumpkin_side": {
+              "texture": "cave_pumpkin_lantern_side",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:map_color": "#b35b00",
+      "minecraft:custom_components": [
+        "betterend:cave_pumpkin_seed"
+      ],
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:geometry": "geometry.random_model2",
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": true,
+      "minecraft:collision_box": false,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "down"
+            ],
+            "block_filter": [
+              "betterend:cave_moss"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
