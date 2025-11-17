@@ -1,0 +1,86 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cave_pumpkin_small",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [8, 0, -8],
+					"cubes": [
+						{
+							"origin": [-3, 7, -3],
+							"size": [6, 6, 6],
+							"uv": {
+								"north": {"uv": [5, 10], "uv_size": [6, 6], "material_instance": "cave_pumpkin_lantern_side"},
+								"east": {"uv": [5, 10], "uv_size": [6, 6], "material_instance": "cave_pumpkin_lantern_side"},
+								"south": {"uv": [5, 10], "uv_size": [6, 6], "material_instance": "cave_pumpkin_lantern_side"},
+								"west": {"uv": [5, 10], "uv_size": [6, 6], "material_instance": "cave_pumpkin_lantern_side"},
+								"up": {"uv": [11, 11], "uv_size": [-6, -6], "material_instance": "cave_pumpkin_lantern_bottom"},
+								"down": {"uv": [11, 11], "uv_size": [-6, -6], "material_instance": "cave_pumpkin_lantern_bottom"}
+							}
+						},
+						{
+							"origin": [-4, 13, -4],
+							"size": [8, 2, 8],
+							"uv": {
+								"up": {"uv": [12, 12], "uv_size": [-8, -8], "material_instance": "cave_pumpkin_top"},
+								"down": {"uv": [12, 12], "uv_size": [-8, -8], "material_instance": "cave_pumpkin_top"}
+							}
+						},
+						{
+							"origin": [-4.001, 10, -4],
+							"size": [0.001, 5, 8],
+							"uv": {
+								"east": {"uv": [4, 1], "uv_size": [8, 5], "material_instance": "cave_pumpkin_side"},
+								"west": {"uv": [4, 1], "uv_size": [8, 5], "material_instance": "cave_pumpkin_side"}
+							}
+						},
+						{
+							"origin": [3.999, 10, -4],
+							"size": [0.001, 5, 8],
+							"uv": {
+								"east": {"uv": [4, 1], "uv_size": [8, 5], "material_instance": "cave_pumpkin_side"},
+								"west": {"uv": [4, 1], "uv_size": [8, 5], "material_instance": "cave_pumpkin_side"}
+							}
+						},
+						{
+							"origin": [-4, 10, -4],
+							"size": [8, 5, 0.001],
+							"uv": {
+								"north": {"uv": [4, 1], "uv_size": [8, 5], "material_instance": "cave_pumpkin_side"},
+								"south": {"uv": [4, 1], "uv_size": [8, 5], "material_instance": "cave_pumpkin_side"}
+							}
+						},
+						{
+							"origin": [-4, 10, 4],
+							"size": [8, 5, 0.001],
+							"uv": {
+								"north": {"uv": [4, 1], "uv_size": [8, 5], "material_instance": "cave_pumpkin_side"},
+								"south": {"uv": [4, 1], "uv_size": [8, 5], "material_instance": "cave_pumpkin_side"}
+							}
+						},
+						{
+							"origin": [-2, 15, -2],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [6, 0], "uv_size": [4, 1], "material_instance": "cave_pumpkin_side"},
+								"east": {"uv": [6, 0], "uv_size": [4, 1], "material_instance": "cave_pumpkin_side"},
+								"south": {"uv": [6, 0], "uv_size": [4, 1], "material_instance": "cave_pumpkin_side"},
+								"west": {"uv": [6, 0], "uv_size": [4, 1], "material_instance": "cave_pumpkin_side"},
+								"up": {"uv": [10, 15], "uv_size": [-4, -4], "material_instance": "cave_pumpkin_side"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
