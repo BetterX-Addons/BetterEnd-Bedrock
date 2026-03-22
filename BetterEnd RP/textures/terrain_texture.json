@@ -1,0 +1,1802 @@
+{
+  "num_mip_levels": 4,
+  "padding": 8,
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    // Portal
+    "betterend_portal": {
+      "textures": "textures/blocks/utils/portal/end_portal"
+    },
+    "flavolite_runed_portal_on": {
+      "textures": "textures/blocks/utils/portal/flavolite_runed_portal_on"
+    },
+    "flavolite_runed_portal_off": {
+      "textures": "textures/blocks/utils/portal/flavolite_runed_portal_off"
+    },
+    // Stones
+    "smaragdant_crystal_bricks": {
+      "textures": "textures/blocks/stones/smaragdant/smaragdant_crystal_bricks"
+    },
+    "smaragdant_crystal_polished": {
+      "textures": "textures/blocks/stones/smaragdant/smaragdant_crystal_polished"
+    },
+    "smaragdant_crystal_tiles": {
+      "textures": "textures/blocks/stones/smaragdant/smaragdant_crystal_tiles"
+    },
+    "violecite_bricks": {
+      "textures": "textures/blocks/stones/violecite/violecite_bricks"
+    },
+    "violecite_polished": {
+      "textures": "textures/blocks/stones/violecite/violecite_polished"
+    },
+    "violecite_tiles": {
+      "textures": "textures/blocks/stones/violecite/violecite_tiles"
+    },
+    "umbralith_bricks": {
+      "textures": "textures/blocks/stones/umbralith/umbralith_bricks"
+    },
+    "umbralith_polished": {
+      "textures": "textures/blocks/stones/umbralith/umbralith_polished"
+    },
+    "umbralith_tiles": {
+      "textures": "textures/blocks/stones/umbralith/umbralith_tiles"
+    },
+    "sulphuric_rock_bricks": {
+      "textures": "textures/blocks/stones/sulphuric_rock/sulphuric_rock_bricks"
+    },
+    "sulphuric_rock_polished": {
+      "textures": "textures/blocks/stones/sulphuric_rock/sulphuric_rock_polished"
+    },
+    "sulphuric_rock_tiles": {
+      "textures": "textures/blocks/stones/sulphuric_rock/sulphuric_rock_tiles"
+    },
+    "virid_jadestone_bricks": {
+      "textures": "textures/blocks/stones/virid_jadestone/virid_jadestone_bricks"
+    },
+    "virid_jadestone_polished": {
+      "textures": "textures/blocks/stones/virid_jadestone/virid_jadestone_polished"
+    },
+    "virid_jadestone_tiles": {
+      "textures": "textures/blocks/stones/virid_jadestone/virid_jadestone_tiles"
+    },
+    "sandy_jadestone_bricks": {
+      "textures": "textures/blocks/stones/sandy_jadestone/sandy_jadestone_bricks"
+    },
+    "sandy_jadestone_polished": {
+      "textures": "textures/blocks/stones/sandy_jadestone/sandy_jadestone_polished"
+    },
+    "sandy_jadestone_tiles": {
+      "textures": "textures/blocks/stones/sandy_jadestone/sandy_jadestone_tiles"
+    },
+    "azure_jadestone_bricks": {
+      "textures": "textures/blocks/stones/azure_jadestone/azure_jadestone_bricks"
+    },
+    "azure_jadestone_polished": {
+      "textures": "textures/blocks/stones/azure_jadestone/azure_jadestone_polished"
+    },
+    "azure_jadestone_tiles": {
+      "textures": "textures/blocks/stones/azure_jadestone/azure_jadestone_tiles"
+    },
+    "flavolite_bricks": {
+      "textures": "textures/blocks/stones/flavolite/flavolite_bricks"
+    },
+    "flavolite_polished": {
+      "textures": "textures/blocks/stones/flavolite/flavolite_polished"
+    },
+    "flavolite_tiles": {
+      "textures": "textures/blocks/stones/flavolite/flavolite_tiles"
+    },
+    // Pillars
+    "azure_jadestone_pillar": {
+      "textures": "textures/blocks/pillars/azure_jadestone_pillar_top"
+    },
+    "azure_jadestone_pillar_side": {
+      "textures": "textures/blocks/pillars/azure_jadestone_pillar_side"
+    },
+    "flavolite_pillar": {
+      "textures": "textures/blocks/pillars/flavolite_pillar_top"
+    },
+    "flavolite_pillar_side": {
+      "textures": "textures/blocks/pillars/flavolite_pillar_side"
+    },
+    "sandy_jadestone_pillar": {
+      "textures": "textures/blocks/pillars/sandy_jadestone_pillar_top"
+    },
+    "sandy_jadestone_pillar_side": {
+      "textures": "textures/blocks/pillars/sandy_jadestone_pillar_side"
+    },
+    "smaragdant_crystal_pillar": {
+      "textures": "textures/blocks/pillars/smaragdant_crystal_pillar_top"
+    },
+    "smaragdant_crystal_pillar_side": {
+      "textures": "textures/blocks/pillars/smaragdant_crystal_pillar_side"
+    },
+    "sulphuric_rock_pillar": {
+      "textures": "textures/blocks/pillars/sulphuric_rock_pillar_top"
+    },
+    "sulphuric_rock_pillar_side": {
+      "textures": "textures/blocks/pillars/sulphuric_rock_pillar_side"
+    },
+    "umbralith_pillar": {
+      "textures": "textures/blocks/pillars/umbralith_pillar_top"
+    },
+    "umbralith_pillar_side": {
+      "textures": "textures/blocks/pillars/umbralith_pillar_side"
+    },
+    "violecite_pillar": {
+      "textures": "textures/blocks/pillars/violecite_pillar_top"
+    },
+    "violecite_pillar_side": {
+      "textures": "textures/blocks/pillars/violecite_pillar_side"
+    },
+    "virid_jadestone_pillar": {
+      "textures": "textures/blocks/pillars/virid_jadestone_pillar_top"
+    },
+    "virid_jadestone_pillar_side": {
+      "textures": "textures/blocks/pillars/virid_jadestone_pillar_side"
+    },
+    "infusion_pedestal_side": {
+      "textures": "textures/blocks/pillars/infusion_pedestal_pillar"
+    },
+    "infusion_pedestal": {
+      "textures": "textures/blocks/pillars/infusion_pedestal_top"
+    },
+    // Wood
+    "helix_tree_bar_stool": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_bar_stool"
+    },
+    "helix_tree_ladder": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_ladder"
+    },
+    "helix_tree_leaves": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_leaves"
+    },
+    "helix_tree_log_side": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_log_side"
+    },
+    "helix_tree_log_top": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_log_top"
+    },
+    "stripped_helix_tree_log": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_stripped_log_side"
+    },
+    "stripped_helix_tree_log_top": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_stripped_log_top"
+    },
+    "helix_tree_sapling": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_sapling"
+    },
+    "planks_helix_tree": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_planks"
+    },
+    "helix_tree_door_lower": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_door_bottom"
+    },
+    "helix_tree_door_upper": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_door_top"
+    },
+    "helix_tree_trapdoor": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_trapdoor"
+    },
+    "helix_tree_crafting_table_bottom": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_crafting_table_bottom"
+    },
+    "helix_tree_crafting_table_front": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_crafting_table_front"
+    },
+    "helix_tree_crafting_table_side": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_crafting_table_side"
+    },
+    "helix_tree_crafting_table_top": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_crafting_table_top"
+    },
+    "dragon_tree_bar_stool": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_bar_stool"
+    },
+    "dragon_tree_ladder": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_ladder"
+    },
+    "dragon_tree_leaves": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_leaves"
+    },
+    "dragon_tree_log_side1": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_log_side"
+    },
+    "dragon_tree_log_side4": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_log_side_4"
+    },
+    "dragon_tree_log_side3": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_log_side_3"
+    },
+    "dragon_tree_log_side2": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_log_side_2"
+    },
+    "dragon_tree_log_top": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/wood/dragon_tree/dragon_tree_log_top",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "stripped_dragon_tree_log": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_stripped_log_side"
+    },
+    "stripped_dragon_tree_log_top": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_stripped_log_top"
+    },
+    "dragon_tree_sapling": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_sapling"
+    },
+    "planks_dragon_tree": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_planks"
+    },
+    "dragon_tree_door_lower": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_door_bottom"
+    },
+    "dragon_tree_door_upper": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_door_top"
+    },
+    "dragon_tree_trapdoor": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_trapdoor"
+    },
+    "dragon_tree_crafting_table_bottom": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_crafting_table_bottom"
+    },
+    "dragon_tree_crafting_table_front": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_crafting_table_front"
+    },
+    "dragon_tree_crafting_table_side": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_crafting_table_side"
+    },
+    "dragon_tree_crafting_table_top": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_crafting_table_top"
+    },
+    "jellyshroom_bar_stool": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_bar_stool"
+    },
+    "jellyshroom_ladder": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_ladder"
+    },
+    "jellyshroom_log_side": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_log_side"
+    },
+    "jellyshroom_log_top": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_log_top"
+    },
+    "stripped_jellyshroom_log": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_stripped_log_side"
+    },
+    "stripped_jellyshroom_log_top": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_stripped_log_top"
+    },
+    "planks_jellyshroom": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_planks"
+    },
+    "jellyshroom_door_lower": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_door_bottom"
+    },
+    "jellyshroom_door_upper": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_door_top"
+    },
+    "jellyshroom_trapdoor": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_trapdoor"
+    },
+    "jellyshroom_crafting_table_bottom": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_crafting_table_bottom"
+    },
+    "jellyshroom_crafting_table_front": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_crafting_table_front"
+    },
+    "jellyshroom_crafting_table_side": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_crafting_table_side"
+    },
+    "jellyshroom_crafting_table_top": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_crafting_table_top"
+    },
+    "lacugrove_bar_stool": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_bar_stool"
+    },
+    "lacugrove_ladder": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_ladder"
+    },
+    "lacugrove_leaves": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_leaves"
+    },
+    "lacugrove_log_side1": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_log_side"
+    },
+    "lacugrove_log_side4": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_log_side_4"
+    },
+    "lacugrove_log_side3": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_log_side_3"
+    },
+    "lacugrove_log_side2": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_log_side_2"
+    },
+    "lacugrove_log_top": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/wood/lacugrove/lacugrove_log_top",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "stripped_lacugrove_log": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_stripped_log_side"
+    },
+    "stripped_lacugrove_log_top": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_stripped_log_top"
+    },
+    "lacugrove_sapling": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_sapling"
+    },
+    "planks_lacugrove": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_planks"
+    },
+    "lacugrove_door_lower": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_door_bottom"
+    },
+    "lacugrove_door_upper": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_door_top"
+    },
+    "lacugrove_trapdoor": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_trapdoor"
+    },
+    "lacugrove_crafting_table_bottom": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_crafting_table_bottom"
+    },
+    "lacugrove_crafting_table_front": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_crafting_table_front"
+    },
+    "lacugrove_crafting_table_side": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_crafting_table_side"
+    },
+    "lacugrove_crafting_table_top": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_crafting_table_top"
+    },
+    "lucernia_bar_stool": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_bar_stool"
+    },
+    "lucernia_ladder": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_ladder"
+    },
+    "lucernia_leaves1": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_leaves_1"
+    },
+    "lucernia_leaves2": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_leaves_2"
+    },
+    "lucernia_leaves3": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_leaves_3"
+    },
+    "lucernia_leaves4": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_leaves_4"
+    },
+    "lucernia_log_side1": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_log_side"
+    },
+    "lucernia_log_side2": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_log_side_2"
+    },
+    "lucernia_log_top": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/wood/lucernia/lucernia_log_top",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "stripped_lucernia_log": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_stripped_log_side"
+    },
+    "stripped_lucernia_log_top": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_stripped_log_top"
+    },
+    "lucernia_sapling": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_sapling"
+    },
+    "planks_lucernia": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_planks"
+    },
+    "lucernia_door_lower": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_door_bottom"
+    },
+    "lucernia_door_upper": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_door_top"
+    },
+    "lucernia_trapdoor": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_trapdoor"
+    },
+    "lucernia_crafting_table_bottom": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_crafting_table_bottom"
+    },
+    "lucernia_crafting_table_front": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_crafting_table_front"
+    },
+    "lucernia_crafting_table_side": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_crafting_table_side"
+    },
+    "lucernia_crafting_table_top": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_crafting_table_top"
+    },
+    "mossy_glowshroom_bar_stool": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_bar_stool"
+    },
+    "mossy_glowshroom_ladder": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_ladder"
+    },
+    "mossy_glowshroom_log_side1": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_log_side"
+    },
+    "mossy_glowshroom_log_side2": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_log_side_2"
+    },
+    "mossy_glowshroom_log_side3": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_log_side_3"
+    },
+    "mossy_glowshroom_log_side4": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_log_side_4"
+    },
+    "mossy_glowshroom_log_side5": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_log_side_5"
+    },
+    "mossy_glowshroom_log_top": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_log_top"
+    },
+    "stripped_mossy_glowshroom_log1": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_stripped_log_side"
+    },
+    "stripped_mossy_glowshroom_log2": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_stripped_log_side_2"
+    },
+    "stripped_mossy_glowshroom_log3": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_stripped_log_side_3"
+    },
+    "stripped_mossy_glowshroom_log4": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_stripped_log_side_4"
+    },
+    "stripped_mossy_glowshroom_log5": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_stripped_log_side_5"
+    },
+    "stripped_mossy_glowshroom_log_top": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_stripped_log_top"
+    },
+    "mossy_glowshroom_sapling": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_sapling"
+    },
+    "planks_mossy_glowshroom": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_planks"
+    },
+    "mossy_glowshroom_door_lower": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_door_bottom"
+    },
+    "mossy_glowshroom_door_upper": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_door_top"
+    },
+    "mossy_glowshroom_trapdoor": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_trapdoor"
+    },
+    "mossy_glowshroom_crafting_table_bottom": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_crafting_table_bottom"
+    },
+    "mossy_glowshroom_crafting_table_front": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_crafting_table_front"
+    },
+    "mossy_glowshroom_crafting_table_side": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_crafting_table_side"
+    },
+    "mossy_glowshroom_crafting_table_top": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_crafting_table_top"
+    },
+    "pythadendron_bar_stool": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_bar_stool"
+    },
+    "pythadendron_ladder": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_ladder"
+    },
+    "pythadendron_leaves": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_leaves"
+    },
+    "pythadendron_log_side1": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_log_side"
+    },
+    "pythadendron_log_side4": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_log_side_mossy"
+    },
+    "pythadendron_log_side3": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_log_side_mossy_2"
+    },
+    "pythadendron_log_side2": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_log_side_2"
+    },
+    "pythadendron_log_top": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/wood/pythadendron/pythadendron_log_top",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "stripped_pythadendron_log": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_stripped_log_side"
+    },
+    "stripped_pythadendron_log_top": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_stripped_log_top"
+    },
+    "pythadendron_sapling": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_sapling"
+    },
+    "planks_pythadendron": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_planks"
+    },
+    "pythadendron_door_lower": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_door_bottom"
+    },
+    "pythadendron_door_upper": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_door_top"
+    },
+    "pythadendron_trapdoor": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_trapdoor"
+    },
+    "pythadendron_crafting_table_bottom": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_crafting_table_bottom"
+    },
+    "pythadendron_crafting_table_front": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_crafting_table_front"
+    },
+    "pythadendron_crafting_table_side": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_crafting_table_side"
+    },
+    "pythadendron_crafting_table_top": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_crafting_table_top"
+    },
+    "tenanea_bar_stool": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_bar_stool"
+    },
+    "tenanea_ladder": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_ladder"
+    },
+    "tenanea_leaves": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_leaves"
+    },
+    "tenanea_log_side": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_log_side"
+    },
+    "tenanea_log_top": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_log_top"
+    },
+    "stripped_tenanea_log": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_stripped_log_side"
+    },
+    "stripped_tenanea_log_top": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_stripped_log_top"
+    },
+    "tenanea_sapling": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_sapling"
+    },
+    "planks_tenanea": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_planks"
+    },
+    "tenanea_door_lower": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_door_bottom"
+    },
+    "tenanea_door_upper": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_door_top"
+    },
+    "tenanea_trapdoor": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_trapdoor"
+    },
+    "tenanea_crafting_table_bottom": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_crafting_table_bottom"
+    },
+    "tenanea_crafting_table_front": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_crafting_table_front"
+    },
+    "tenanea_crafting_table_side": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_crafting_table_side"
+    },
+    "tenanea_crafting_table_top": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_crafting_table_top"
+    },
+    "umbrella_tree_bar_stool": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_bar_stool"
+    },
+    "umbrella_tree_ladder": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_ladder"
+    },
+    "umbrella_tree_log_side": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_log_side"
+    },
+    "umbrella_tree_log_top": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_log_top"
+    },
+    "stripped_umbrella_tree_log": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_stripped_log_side"
+    },
+    "stripped_umbrella_tree_log_top": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_stripped_log_top"
+    },
+    "umbrella_tree_sapling": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_sapling"
+    },
+    "planks_umbrella_tree": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_planks"
+    },
+    "umbrella_tree_door_lower": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_door_bottom"
+    },
+    "umbrella_tree_door_upper": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_door_top"
+    },
+    "umbrella_tree_trapdoor": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_trapdoor"
+    },
+    "umbrella_tree_crafting_table_bottom": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_crafting_table_bottom"
+    },
+    "umbrella_tree_crafting_table_front": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_crafting_table_front"
+    },
+    "umbrella_tree_crafting_table_side": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_crafting_table_side"
+    },
+    "umbrella_tree_crafting_table_top": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_crafting_table_top"
+    },
+    "end_lotus_bar_stool": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_bar_stool"
+    },
+    "end_lotus_ladder": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_ladder"
+    },
+    "end_lotus_log_side": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_log_side"
+    },
+    "end_lotus_log_top": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_log_top"
+    },
+    "stripped_end_lotus_log": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_stripped_log_side"
+    },
+    "stripped_end_lotus_log_top": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_stripped_log_top"
+    },
+    "planks_end_lotus": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_planks"
+    },
+    "end_lotus_door_lower": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_door_bottom"
+    },
+    "end_lotus_door_upper": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_door_top"
+    },
+    "end_lotus_trapdoor": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_trapdoor"
+    },
+    "end_lotus_crafting_table_bottom": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_crafting_table_bottom"
+    },
+    "end_lotus_crafting_table_front": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_crafting_table_front"
+    },
+    "end_lotus_crafting_table_side": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_crafting_table_side"
+    },
+    "end_lotus_crafting_table_top": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_crafting_table_top"
+    },
+    // Dragon Graveyards
+    "amaranita_lantern": {
+      "textures": "textures/blocks/dragon/amaranita_lantern"
+    },
+    "amaranita_hyphae_top": {
+      "textures": "textures/blocks/dragon/amaranita_hyphae_top"
+    },
+    "amaranita_hyphae_side": {
+      "textures": "textures/blocks/dragon/amaranita_hyphae_side"
+    },
+    "amaranita_hymenophore": {
+      "textures": "textures/blocks/dragon/amaranita_hymenophore"
+    },
+    "amaranita_cap": {
+      "textures": "textures/blocks/dragon/amaranita_cap"
+    },
+    "amaranita_fur": {
+      "textures": "textures/blocks/dragon/amaranita_fur"
+    },
+    "globulagus": {
+      "textures": "textures/blocks/dragon/globulagus"
+    },
+    "clawfern": {
+      "textures": "textures/blocks/dragon/clawfern"
+    },
+    "amaranita_stem": {
+      "textures": "textures/blocks/dragon/amaranita_stem_middle"
+    },
+    "amaranita_stem_roots": {
+      "textures": "textures/blocks/dragon/amaranita_stem_roots"
+    },
+    "large_amaranita_cap": {
+      "textures": "textures/blocks/dragon/large_amaranita_cap_side"
+    },
+    "large_amaranita_cap_top": {
+      "textures": "textures/blocks/dragon/large_amaranita_cap_top"
+    },
+    "large_amaranita_cap_bottom": {
+      "textures": "textures/blocks/dragon/large_amaranita_cap_bottom"
+    },
+    "amaranita_stem_top": {
+      "textures": "textures/blocks/dragon/amaranita_stem_top"
+    },
+    "small_amaranita_mushroom": {
+      "textures": "textures/blocks/dragon/small_amaranita_mushroom"
+    },
+    "mossy_obsidian_side": {
+      "textures": "textures/blocks/dragon/mossy_obsidian_side"
+    },
+    "sangnum_side": {
+      "textures": "textures/blocks/dragon/sangnum_side"
+    },
+    "sangnum_top": {
+      "textures": "textures/blocks/dragon/sangnum_top"
+    },
+    // Ice Starfield
+    "ancient_emerald_ice": {
+      "textures": "textures/blocks/star/ancient_emerald_ice"
+    },
+    "dense_emerald_ice": {
+      "textures": "textures/blocks/star/dense_emerald_ice"
+    },
+    "dense_snow": {
+      "textures": "textures/blocks/star/dense_snow"
+    },
+    "emerald_ice": {
+      "textures": "textures/blocks/star/emerald_ice"
+    },
+    // Lantern
+    "pond_anemone": {
+      "textures": "textures/blocks/lantern/plants/pond_anemone"
+    },
+    "lucernia_outer_leaves_1": {
+      "textures": "textures/blocks/lantern/plants/lucernia_outer_leaves_1"
+    },
+    "lucernia_outer_leaves_2": {
+      "textures": "textures/blocks/lantern/plants/lucernia_outer_leaves_2"
+    },
+    "lucernia_outer_leaves_3": {
+      "textures": "textures/blocks/lantern/plants/lucernia_outer_leaves_3"
+    },
+    "flamaea1": {
+      "textures": "textures/blocks/lantern/plants/flamaea_1"
+    },
+    "flamaea2": {
+      "textures": "textures/blocks/lantern/plants/flamaea_2"
+    },
+    "flamaea3": {
+      "textures": "textures/blocks/lantern/plants/flamaea_3"
+    },
+    "flamaea4": {
+      "textures": "textures/blocks/lantern/plants/flamaea_4"
+    },
+    "flamaea5": {
+      "textures": "textures/blocks/lantern/plants/flamaea_5"
+    },
+    "filalux_wings": {
+      "textures": "textures/blocks/lantern/plants/filalux_wings"
+    },
+    "bolux_mushroom": {
+      "textures": "textures/blocks/lantern/plants/bolux_mushroom"
+    },
+    "orango": {
+      "textures": "textures/blocks/lantern/plants/orango"
+    },
+    "lamellarium": {
+      "textures": "textures/blocks/lantern/plants/lamellarium"
+    },
+    "aurant_polypore": {
+      "textures": "textures/blocks/lantern/plants/aurant_polypore"
+    },
+    "filalux_lantern": {
+      "textures": "textures/blocks/lantern/plants/filalux_lantern"
+    },
+    "ruscus": {
+      "textures": "textures/blocks/lantern/plants/ruscus"
+    },
+    "lutebus": {
+      "textures": "textures/blocks/lantern/plants/lutebus"
+    },
+    "aeridium": {
+      "textures": "textures/blocks/lantern/plants/aeridium"
+    },
+    "rutiscus_side": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/lantern/rutiscus_side_1",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/lantern/rutiscus_side_2",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "rutiscus_top": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/lantern/rutiscus_top_1",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/lantern/rutiscus_top_2",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "filalux_top": {
+      "textures": "textures/blocks/lantern/plants/filalux_bottom"
+    },
+    "filalux_middle": {
+      "textures": "textures/blocks/lantern/plants/filalux_middle"
+    },
+    "lucernia_leaves": {
+      "textures": "textures/blocks/lantern/tree/lucernia_leaves_1"
+    },
+    // Umbra
+    "pallidium_bottom": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/umbra/umbralith/umbralith",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/umbra/umbralith/umbralith2",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/umbra/umbralith/umbralith6",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/umbra/umbralith/umbralith7",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "pallidium_full_side": {
+      "textures": "textures/blocks/umbra/pallidium/pallidium_full_side"
+    },
+    "pallidium_full_top": {
+      "textures": "textures/blocks/umbra/pallidium/pallidium_full_top"
+    },
+    "pallidium_heavy_side": {
+      "textures": "textures/blocks/umbra/pallidium/pallidium_heavy_side"
+    },
+    "pallidium_heavy_top": {
+      "textures": "textures/blocks/umbra/pallidium/pallidium_heavy_top"
+    },
+    "pallidium_thin_side": {
+      "textures": "textures/blocks/umbra/pallidium/pallidium_thin_side"
+    },
+    "pallidium_thin_top": {
+      "textures": "textures/blocks/umbra/pallidium/pallidium_thin_top"
+    },
+    "pallidium_tiny_side": {
+      "textures": "textures/blocks/umbra/pallidium/pallidium_tiny_side"
+    },
+    "pallidium_tiny_top": {
+      "textures": "textures/blocks/umbra/pallidium/pallidium_tiny_top"
+    },
+    "umbralith": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/umbra/umbralith/umbralith",
+            "weight": 2
+          },
+          {
+            "path": "textures/blocks/umbra/umbralith/umbralith2",
+            "weight": 2
+          },
+          {
+            "path": "textures/blocks/umbra/umbralith/umbralith6",
+            "weight": 2
+          },
+          {
+            "path": "textures/blocks/umbra/umbralith/umbralith7",
+            "weight": 2
+          },
+          {
+            "path": "textures/blocks/umbra/umbralith/umbralith3",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/umbra/umbralith/umbralith4",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/umbra/umbralith/umbralith5",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "flammalix": {
+      "textures": "textures/blocks/umbra/plants/flammalix"
+    },
+    "inflexia": {
+      "textures": "textures/blocks/umbra/plants/inflexia"
+    },
+    // Neon
+    "neon_cactus_small": {
+      "textures": "textures/blocks/neon/neon_cactus_small"
+    },
+    "neon_cactus_medium": {
+      "textures": "textures/blocks/neon/neon_cactus_medium"
+    },
+    "neon_cactus_big": {
+      "textures": "textures/blocks/neon/neon_cactus_big"
+    },
+    // Glowing
+    "fracturn": {
+      "textures": "textures/blocks/glowing/plants/fracturn"
+    },
+    "lumecorn_light_top_middle": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_light_top_middle"
+    },
+    "lumecorn_light_top": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_light_top"
+    },
+    "lumecorn_light_middle": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_light_middle"
+    },
+    "lumecorn_light_bottom": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_light_bottom"
+    },
+    "lumecorn_leaf": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_leaf"
+    },
+    "lumecorn_roots": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_roots"
+    },
+    "lumecorn_stem": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_stem"
+    },
+    "lumecorn_0": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_0"
+    },
+    "lumecorn_1": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_1"
+    },
+    "lumecorn_2": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_2"
+    },
+    "lumecorn_3": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_3"
+    },
+    "vaiolush_fern": {
+      "textures": "textures/blocks/glowing/plants/vaiolush_fern"
+    },
+    "salteago": {
+      "textures": "textures/blocks/glowing/plants/salteago"
+    },
+    "blooming_cooksonia": {
+      "textures": "textures/blocks/glowing/plants/blooming_cooksonia"
+    },
+    // Umbrella
+    "purple_jellyshroom_cap": {
+      "textures": "textures/blocks/umbrella/jellyshroom/tree/purple_jellyshroom_cap"
+    },
+    "small_jellyshroom": {
+      "textures": "textures/blocks/umbrella/plants/small_jellyshroom"
+    },
+    "twisted_umbrella_moss_small": {
+      "textures": "textures/blocks/umbrella/plants/umbrella_moss_small"
+    },
+    "twisted_umbrella_moss_bottom": {
+      "textures": "textures/blocks/umbrella/plants/umbrella_moss_bottom"
+    },
+    "twisted_umbrella_moss_end": {
+      "textures": "textures/blocks/umbrella/plants/umbrella_moss_end"
+    },
+    "twisted_umbrella_moss_up": {
+      "textures": "textures/blocks/umbrella/plants/umbrella_moss_up"
+    },
+    "twisted_umbrella_moss_sporophyte": {
+      "textures": "textures/blocks/umbrella/plants/umbrella_moss_sporophyte"
+    },
+    "umbrella_tree_cluster": {
+      "textures": "textures/blocks/umbrella/tree/umbrella_tree_cluster"
+    },
+    "jungle_vine_bottom": {
+      "textures": "textures/blocks/umbrella/plants/jungle_vine_bottom"
+    },
+    "jungle_vine": {
+      "textures": "textures/blocks/umbrella/plants/jungle_vine"
+    },
+    "jungle_fern1": {
+      "textures": "textures/blocks/umbrella/plants/jungle_fern1"
+    },
+    "jungle_fern2": {
+      "textures": "textures/blocks/umbrella/plants/jungle_fern2"
+    },
+    "jungle_fern3": {
+      "textures": "textures/blocks/umbrella/plants/jungle_fern3"
+    },
+    "umbrella_tree_membrane_7": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_7"
+    },
+    "umbrella_tree_membrane_6": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_6"
+    },
+    "umbrella_tree_membrane_5": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_5"
+    },
+    "umbrella_tree_membrane_4": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_4"
+    },
+    "umbrella_tree_membrane_3": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_3"
+    },
+    "umbrella_tree_membrane_2": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_2"
+    },
+    "umbrella_tree_membrane_1": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_1"
+    },
+    "umbrella_tree_membrane_0": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_0"
+    },
+    "jungle_grass3": {
+      "textures": "textures/blocks/umbrella/plants/jungle_grass3"
+    },
+    "jungle_grass2": {
+      "textures": "textures/blocks/umbrella/plants/jungle_grass2"
+    },
+    "jungle_grass": {
+      "textures": "textures/blocks/umbrella/plants/jungle_grass"
+    },
+    "jungle_moss_top": {
+      "textures": "textures/blocks/umbrella/jungle_moss_top"
+    },
+    "jungle_moss_side": {
+      "textures": "textures/blocks/umbrella/jungle_moss_side"
+    },
+    // Sulphur
+    "hydralux_sapling2": {
+      "textures": "textures/blocks/sulphur/plants/hydralux_sapling_1"
+    },
+    "hydralux_sapling": {
+      "textures": "textures/blocks/sulphur/plants/hydralux_flower"
+    },
+    "tube_worm": {
+      "textures": "textures/blocks/sulphur/plants/tube_worm"
+    },
+    "hydrothermal_vent": {
+      "textures": "textures/blocks/sulphur/plants/hydrothermal_vent"
+    },
+    "sulphuric_rock": {
+      "textures": "textures/blocks/sulphur/sulphuric_rock"
+    },
+    "inactive_brimstone": {
+      "textures": "textures/blocks/sulphur/inactive_brimstone"
+    },
+    "brimstone": {
+      "textures": "textures/blocks/sulphur/brimstone"
+    },
+    // Shadow
+    "needlegrass4": {
+      "textures": "textures/blocks/shadow/plants/needlegrass4"
+    },
+    "needlegrass3": {
+      "textures": "textures/blocks/shadow/plants/needlegrass3"
+    },
+    "needlegrass2": {
+      "textures": "textures/blocks/shadow/plants/needlegrass2"
+    },
+    "needlegrass1": {
+      "textures": "textures/blocks/shadow/plants/needlegrass1"
+    },
+    "murkweed": {
+      "textures": "textures/blocks/shadow/plants/murkweed"
+    },
+    "shadow_plant": {
+      "textures": "textures/blocks/shadow/plants/shadow_plant"
+    },
+    "twisted_vine_roots": {
+      "textures": "textures/blocks/shadow/plants/twisted_vine_roots"
+    },
+    "twisted_vine_bottom": {
+      "textures": "textures/blocks/shadow/plants/twisted_vine_bottom"
+    },
+    "twisted_vine": {
+      "textures": "textures/blocks/shadow/plants/twisted_vine"
+    },
+    "shadow_berry": {
+      "textures": "textures/blocks/shadow/plants/shadow_berry"
+    },
+    "shadow_grass_top": {
+      "textures": "textures/blocks/shadow/shadow_grass_top"
+    },
+    "shadow_grass_side": {
+      "textures": "textures/blocks/shadow/shadow_grass_side"
+    },
+    // Megalakes
+    "end_lotus": {
+      "textures": "textures/blocks/megalakes/plants/end_lotus/end_lotus"
+    },
+    "end_lotus_0": {
+      "textures": "textures/blocks/megalakes/plants/end_lotus/end_lotus_1"
+    },
+    "end_lotus_1": {
+      "textures": "textures/blocks/megalakes/plants/end_lotus/end_lotus_2"
+    },
+    "end_lotus_2": {
+      "textures": "textures/blocks/megalakes/plants/end_lotus/end_lotus_3"
+    },
+    "end_lotus_3": {
+      "textures": "textures/blocks/megalakes/plants/end_lotus/end_lotus_4"
+    },
+    "end_lily": {
+      "textures": "textures/blocks/megalakes/plants/end_lily/end_lily"
+    },
+    "end_lily_stem": {
+      "textures": "textures/blocks/megalakes/plants/end_lily/end_lily_stem"
+    },
+    "end_lily_0": {
+      "textures": "textures/blocks/megalakes/plants/end_lily/end_lily_0"
+    },
+    "end_lily_1": {
+      "textures": "textures/blocks/megalakes/plants/end_lily/end_lily_1"
+    },
+    "end_lily_2": {
+      "textures": "textures/blocks/megalakes/plants/end_lily/end_lily_2"
+    },
+    "end_lily_3": {
+      "textures": "textures/blocks/megalakes/plants/end_lily/end_lily_3"
+    },
+    "be_bubble_coral": {
+      "textures": "textures/blocks/megalakes/plants/bubble_coral"
+    },
+    "red_charnia": {
+      "textures": "textures/blocks/megalakes/plants/charnia_red"
+    },
+    "purple_charnia": {
+      "textures": "textures/blocks/megalakes/plants/charnia_purple"
+    },
+    "orange_charnia": {
+      "textures": "textures/blocks/megalakes/plants/charnia_orange"
+    },
+    "light_blue_charnia": {
+      "textures": "textures/blocks/megalakes/plants/charnia_light_blue"
+    },
+    "green_charnia": {
+      "textures": "textures/blocks/megalakes/plants/charnia_green"
+    },
+    "cyan_charnia": {
+      "textures": "textures/blocks/megalakes/plants/charnia_cyan"
+    },
+    // Painted Mountains
+    "violecite": {
+      "textures": "textures/blocks/painted/violecite"
+    },
+    "flavolite": {
+      "textures": "textures/blocks/painted/flavolite"
+    },
+    // Foggy
+    "creeping_moss": {
+      "textures": "textures/blocks/foggy/plants/creeping_moss"
+    },
+    "cyan_moss": {
+      "textures": "textures/blocks/foggy/plants/cyan_moss"
+    },
+    "mossy_glowshroom_fur": {
+      "textures": "textures/blocks/foggy/plants/mossy_glowshroom_fur"
+    },
+    "umbrella_moss_small": {
+      "textures": "textures/blocks/foggy/plants/umbrella_moss_small"
+    },
+    "umbrella_moss_bottom": {
+      "textures": "textures/blocks/foggy/plants/umbrella_moss_bottom"
+    },
+    "umbrella_moss_end": {
+      "textures": "textures/blocks/foggy/plants/umbrella_moss_end"
+    },
+    "umbrella_moss_up": {
+      "textures": "textures/blocks/foggy/plants/umbrella_moss_up"
+    },
+    "umbrella_moss_sporophyte": {
+      "textures": "textures/blocks/foggy/plants/umbrella_moss_sporophyte"
+    },
+    "blue_vine_0": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_0"
+    },
+    "blue_vine_1": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_1"
+    },
+    "blue_vine_2": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_2"
+    },
+    "blue_vine_3": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_3"
+    },
+    "blue_vine": {
+      "textures": "textures/blocks/foggy/plants/blue_vine"
+    },
+    "blue_vine_lantern": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_lantern"
+    },
+    "blue_vine_fur": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_fur"
+    },
+    "blue_vine_roots": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_roots"
+    },
+    "dense_vine_roots": {
+      "textures": "textures/blocks/foggy/plants/dense_vine_roots"
+    },
+    "dense_vine_bottom": {
+      "textures": "textures/blocks/foggy/plants/dense_vine_bottom"
+    },
+    "dense_vine": {
+      "textures": "textures/blocks/foggy/plants/dense_vine"
+    },
+    "end_moss_top": {
+      "textures": "textures/blocks/foggy/end_moss_top"
+    },
+    "end_moss_side": {
+      "textures": "textures/blocks/foggy/end_moss_side"
+    },
+    "mossy_glowshroom_hymenophore": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/foggy/plants/mossy_glowshroom_hymenophore_1",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/foggy/plants/mossy_glowshroom_hymenophore_2",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/foggy/plants/mossy_glowshroom_hymenophore_3",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/foggy/plants/mossy_glowshroom_hymenophore_4",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "mossy_glowshroom_cap_transition": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_cap_transition"
+    },
+    "mossy_glowshroom_cap": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_cap"
+    },
+    // Dust
+    "endstone_dust": {
+      "textures": "textures/blocks/dust/endstone_dust"
+    },
+    // Crystal
+    "crystal_0": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_0"
+    },
+    "crystal_1": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_2"
+    },
+    "crystal_2": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_3"
+    },
+    "crystal_3": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_4"
+    },
+    "crystal_4": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_5"
+    },
+    "crystal_5": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_6"
+    },
+    "crystal_6": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_7"
+    },
+    "crystal_7": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_8"
+    },
+    "crystal_8": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_9"
+    },
+    "crystal_9": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_10"
+    },
+    "crystal_10": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_11"
+    },
+    "crystal_11": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_12"
+    },
+    "crystal_12": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_13"
+    },
+    "crystal_13": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_14"
+    },
+    "crystal_14": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_15"
+    },
+    "crystal_15": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_16"
+    },
+    "crystal_16": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_17"
+    },
+    "crystal_17": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_18"
+    },
+    "crystal_18": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_19"
+    },
+    "crystal_19": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_20"
+    },
+    "crystal_20": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_21"
+    },
+    "crystal_21": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_22"
+    },
+    "crystal_22": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_23"
+    },
+    "crystal_23": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_24"
+    },
+    "crystal_24": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_25"
+    },
+    "crystal_25": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_26"
+    },
+    "crystal_26": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_27"
+    },
+    "crystal_27": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_28"
+    },
+    "crystal_28": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_29"
+    },
+    "crystal_moss_cover": {
+      "textures": "textures/blocks/crystal/plants/crystal_moss_cover"
+    },
+    "crystal_grass_5": {
+      "textures": "textures/blocks/crystal/plants/crystal_grass_5"
+    },
+    "crystal_grass_4": {
+      "textures": "textures/blocks/crystal/plants/crystal_grass_4"
+    },
+    "crystal_grass_3": {
+      "textures": "textures/blocks/crystal/plants/crystal_grass_3"
+    },
+    "crystal_grass_2": {
+      "textures": "textures/blocks/crystal/plants/crystal_grass_2"
+    },
+    "crystal_moss_side": {
+      "textures": "textures/blocks/crystal/crystal_moss_side"
+    },
+    "crystal_moss_top": {
+      "textures": "textures/blocks/crystal/crystal_moss_top"
+    },
+    // Chorus
+    "chorus_plant_flower": {
+      "textures": "textures/blocks/chorus/plants/chorus_plant_flower"
+    },
+    "chorus_plant_flower_closed": {
+      "textures": "textures/blocks/chorus/plants/chorus_plant_flower_closed"
+    },
+    "purple_polypore": {
+      "textures": "textures/blocks/chorus/plants/purple_polypore"
+    },
+    "tail_moss": {
+      "textures": "textures/blocks/chorus/plants/tail_moss"
+    },
+    "chorus_mushroom_3": {
+      "textures": "textures/blocks/chorus/plants/chorus_mushroom_3"
+    },
+    "chorus_mushroom_2": {
+      "textures": "textures/blocks/chorus/plants/chorus_mushroom_2"
+    },
+    "chorus_mushroom_1": {
+      "textures": "textures/blocks/chorus/plants/chorus_mushroom_1"
+    },
+    "chorus_mushroom_0": {
+      "textures": "textures/blocks/chorus/plants/chorus_mushroom_0"
+    },
+    "chorus_grass_04": {
+      "textures": "textures/blocks/chorus/plants/chorus_grass_04"
+    },
+    "chorus_grass_03": {
+      "textures": "textures/blocks/chorus/plants/chorus_grass_03"
+    },
+    "chorus_grass_02": {
+      "textures": "textures/blocks/chorus/plants/chorus_grass_02"
+    },
+    "chorus_grass_01": {
+      "textures": "textures/blocks/chorus/plants/chorus_grass_01"
+    },
+    "chorus_nylium_top": {
+      "textures": "textures/blocks/chorus/chorus_nylium_top"
+    },
+    "chorus_nylium_side": {
+      "textures": "textures/blocks/chorus/chorus_nylium_side"
+    },
+    // Blossoming
+    "silk_moth_hive": {
+      "textures": "textures/blocks/blossoming/nest/silk_moth_hive"
+    },
+    "silk_moth_nest": {
+      "textures": "textures/blocks/blossoming/nest/silk_moth_nest"
+    },
+    "tenanea_flowers_middle_purple_and_blue": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_middle_purple_and_blue"
+    },
+    "tenanea_flowers_bottom_purple_and_blue": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_bottom_purple_and_blue"
+    },
+    "tenanea_flowers_middle_purple": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_middle_purple"
+    },
+    "tenanea_flowers_bottom_purple": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_bottom_purple"
+    },
+    "tenanea_flowers_middle_cyan": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_middle_cyan"
+    },
+    "tenanea_flowers_bottom_cyan": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_bottom_cyan"
+    },
+    "tenanea_flowers_middle_pink": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_middle_pink"
+    },
+    "tenanea_flowers_bottom_pink": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_bottom_pink"
+    },
+    "bulb_vine": {
+      "textures": "textures/blocks/blossoming/plants/bulb_vine"
+    },
+    "bulb_vine_seed_3": {
+      "textures": "textures/blocks/blossoming/plants/bulb_vine_seed_3"
+    },
+    "bulb_vine_seed_2": {
+      "textures": "textures/blocks/blossoming/plants/bulb_vine_seed_2"
+    },
+    "bulb_vine_seed_1": {
+      "textures": "textures/blocks/blossoming/plants/bulb_vine_seed_1"
+    },
+    "bulb_vine_seed_0": {
+      "textures": "textures/blocks/blossoming/plants/bulb_vine_seed_0"
+    },
+    "bushy_grass": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/blossoming/plants/bushy_grass_2",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/blossoming/plants/bushy_grass_1",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "blossom_berry_seed_2": {
+      "textures": "textures/blocks/blossoming/plants/blossom_berry_seed_2"
+    },
+    "blossom_berry_seed_1": {
+      "textures": "textures/blocks/blossoming/plants/blossom_berry_seed_1"
+    },
+    "blossom_berry_seed_0": {
+      "textures": "textures/blocks/blossoming/plants/blossom_berry_seed_0"
+    },
+    "blossom_berry": {
+      "textures": "textures/blocks/blossoming/plants/blossom_berry"
+    },
+    "twisted_moss": {
+      "textures": "textures/blocks/blossoming/plants/twisted_moss"
+    },
+    "tenanea_outer_leaves": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_outer_leaves"
+    },
+    "pink_moss_top": {
+      "textures": "textures/blocks/blossoming/pink_moss_top"
+    },
+    "pink_moss_side": {
+      "textures": "textures/blocks/blossoming/pink_moss_side"
+    },
+    // Amberland
+    "glowing_pillar_luminophor": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_luminophor"
+    },
+    "glowing_pillar_leaves": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_leaves"
+    },
+    "glowing_pillar_roots_top": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_roots_top"
+    },
+    "glowing_pillar_roots_bottom": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_roots_bottom"
+    },
+    "glowing_pillar_roots_both": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_roots_both"
+    },
+    "glowing_pillar_seed_3": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_seed_3"
+    },
+    "glowing_pillar_seed_2": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_seed_2"
+    },
+    "glowing_pillar_seed_1": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_seed_1"
+    },
+    "glowing_pillar_seed_0": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_seed_0"
+    },
+    "bulb_moss": {
+      "textures": "textures/blocks/amberland/plants/bulb_moss"
+    },
+    "lanceleaf_seed_0": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_seed_0"
+    },
+    "lanceleaf_seed_1": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_seed_1"
+    },
+    "lanceleaf_seed_2": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_seed_2"
+    },
+    "lanceleaf_seed_3": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_seed_3"
+    },
+    "lanceleaf_leaf_top": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_leaf_top"
+    },
+    "lanceleaf_leaf_pre_top": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_leaf_pre_top"
+    },
+    "lanceleaf_leaf_middle": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_leaf_middle"
+    },
+    "lanceleaf_leaf_bottom": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_leaf_bottom"
+    },
+    "lanceleaf_stem": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_stem"
+    },
+    "amber_moss_top": {
+      "textures": "textures/blocks/amberland/amber_moss_top"
+    },
+    "amber_moss_side": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/amberland/amber_moss_side_1",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/amberland/amber_moss_side_2",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/amberland/amber_moss_side_3",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "amber_root_0": {
+      "textures": "textures/blocks/amberland/plants/amber_root_0"
+    },
+    "amber_root_1": {
+      "textures": "textures/blocks/amberland/plants/amber_root_1"
+    },
+    "amber_root_2": {
+      "textures": "textures/blocks/amberland/plants/amber_root_2"
+    },
+    "amber_root_3": {
+      "textures": "textures/blocks/amberland/plants/amber_root_3"
+    },
+    "amber_grass": {
+      "textures": "textures/blocks/amberland/plants/amber_grass"
+    },
+    "amber_grass_potted": {
+      "textures": "textures/blocks/amberland/plants/amber_grass_potted"
+    },
+    // Utils
+    "air": {
+      "textures": "textures/blocks/utils/air"
+    },
+    "respawn_obelisk_top_and_side": {
+      "textures": "textures/blocks/_extras/respawn_obelisk_top_and_side"
+    },
+    "respawn_obelisk_bottom_side": {
+      "textures": "textures/blocks/_extras/respawn_obelisk_bottom_side"
+    },
+    "obelisk_aurora_crystal": {
+      "textures": "textures/blocks/_extras/aurora_crystal"
+    },
+    // Ores
+    "aeternium_block": {
+      "textures": "textures/blocks/ore/aeternium_block"
+    },
+    "terminite_block": {
+      "textures": "textures/blocks/ore/terminite_block"
+    },
+    "thallasium_block": {
+      "textures": "textures/blocks/ore/thallasium_block"
+    },
+    "amber_block": {
+      "textures": "textures/blocks/ore/amber_block"
+    },
+    "amber_ore": {
+      "textures": "textures/blocks/ore/amber_ore"
+    },
+    "ender_ore": {
+      "textures": "textures/blocks/ore/ender_ore"
+    },
+    "thallasium_ore": {
+      "textures": "textures/blocks/ore/thallasium_ore"
+    },
+    // Jadestone Cave
+    "sandy_jadestone": {
+      "textures": "textures/blocks/caves/sandy_jadestone"
+    },
+    "azure_jadestone": {
+      "textures": "textures/blocks/caves/azure_jadestone"
+    },
+    "virid_jadestone": {
+      "textures": "textures/blocks/caves/virid_jadestone"
+    },
+    // Lush Cave
+    "magnula_top": {
+      "textures": "textures/blocks/caves/magnula_top"
+    },
+    "magnula": {
+      "textures": "textures/blocks/caves/magnula"
+    },
+    "rubinea_top": {
+      "textures": "textures/blocks/caves/rubinea_top"
+    },
+    "rubinea": {
+      "textures": "textures/blocks/caves/rubinea"
+    },
+    "cave_grass1": {
+      "textures": "textures/blocks/caves/plants/cave_grass_1"
+    },
+    "cave_grass2": {
+      "textures": "textures/blocks/caves/plants/cave_grass_2"
+    },
+    "cave_moss": {
+      "textures": "textures/blocks/caves/cave_moss"
+    },
+    "cave_bush_leaves1": {
+      "textures": "textures/blocks/caves/cave_bush_leaves_1"
+    },
+    "cave_bush_leaves2": {
+      "textures": "textures/blocks/caves/cave_bush_leaves_2"
+    },
+    "cave_bush_leaves3": {
+      "textures": "textures/blocks/caves/cave_bush_leaves_3"
+    },
+    "cave_bush_leaves4": {
+      "textures": "textures/blocks/caves/cave_bush_leaves_4"
+    },
+    // Smaragdant Cave
+    "smaragdant_crystal_shard": {
+      "textures": "textures/blocks/caves/smaragdant_crystal_shard"
+    },
+    "budding_smaragdant_crystal_side": {
+      "textures": "textures/blocks/caves/budding_smaragdant_crystal_side"
+    },
+    "budding_smaragdant_crystal_top": {
+      "textures": "textures/blocks/caves/budding_smaragdant_crystal_top"
+    },
+    "smaragdant_crystal_side": {
+      "textures": "textures/blocks/caves/smaragdant_crystal_side"
+    },
+    "smaragdant_crystal_top": {
+      "textures": "textures/blocks/caves/smaragdant_crystal_top"
+    },
+    // Caves
+    "cave_pumpkin_stem_0": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_stem_0"
+    },
+    "cave_pumpkin_stem_1": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_stem_1"
+    },
+    "cave_pumpkin_stem_2": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_stem_2"
+    },
+    "cave_pumpkin_stem_3": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_stem_3"
+    },
+    "cave_pumpkin_lantern_side": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_lantern_side"
+    },
+    "cave_pumpkin_lantern_bottom": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_lantern_bottom"
+    },
+    "cave_pumpkin_lantern_top": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_lantern_bottom"
+    },
+    "cave_pumpkin_top": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_top"
+    },
+    "cave_pumpkin_side": {
+      "textures": "textures/blocks/caves/plants/cave_pumpkin_side"
+    },
+    "end_stone_stalactite_0": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_0"
+    },
+    "end_stone_stalactite_1": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_1"
+    },
+    "end_stone_stalactite_2": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_2"
+    },
+    "end_stone_stalactite_3": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_3"
+    },
+    "end_stone_stalactite_4": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_4"
+    },
+    "end_stone_stalactite_5": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_5"
+    },
+    "end_stone_stalactite_6": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_6"
+    },
+    "end_stone_stalactite_7": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_7"
+    },
+    "end_stone_stalactite_cavemoss_0": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_0"
+    },
+    "end_stone_stalactite_cavemoss_1": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_1"
+    },
+    "end_stone_stalactite_cavemoss_2": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_2"
+    },
+    "end_stone_stalactite_cavemoss_3": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_3"
+    },
+    "end_stone_stalactite_cavemoss_4": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_4"
+    },
+    "end_stone_stalactite_cavemoss_5": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_5"
+    },
+    "end_stone_stalactite_cavemoss_6": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_6"
+    },
+    "end_stone_stalactite_cavemoss_7": {
+      "textures": "textures/blocks/caves/stalactite/end_stone_stalactite_cavemoss_7"
+    }
+  }
+}
