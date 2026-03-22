@@ -4,44 +4,25 @@
     "name": "BetterEnd RP",
     "description": "by...",
     "uuid": "fbbfc519-0464-465e-af0d-3e0ded4025c0",
-    "version": [
-      1,
-      0,
-      0
-    ],
-    "min_engine_version": [
-      1,
-      20,
-      50
-    ]
+    "pack_scope": "world",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 26, 0 ]
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "42231a71-4cd7-48c6-89c7-8d0219675077",
-      "version": [
-        1,
-        0,
-        0
-      ]
+      "version": [ 1, 0, 0 ]
     }
   ],
   "dependencies": [
     {
       "uuid": "8ee24485-3137-4578-9673-2794c4f4fde7",
-      "version": [1, 0, 0]
+      "version": [ 1, 0, 0 ]
     }
   ],
-  "subpacks": [
-    {
-      "folder_name": "with_fogs",
-      "name": "Biome Fogs (Default)",
-      "memory_tier": 0
-    },
-    {
-      "folder_name": "without_fogs",
-      "name": "No Fogs (Normal Sky)",
-      "memory_tier": 1
-    }
-  ]
+  "capabilities": [ "pbr" ],
+  "metadata": {
+    "product_type": "addon"
+  }
 }
