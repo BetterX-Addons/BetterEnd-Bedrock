@@ -1,0 +1,6 @@
+"particle_effects": {
+				"nebula": "betterend:nebula",
+				"stars": "betterend:stars",
+				"nebula2": "betterend:nebula2",
+				"nebula3": "betterend:nebula3"
+			},
