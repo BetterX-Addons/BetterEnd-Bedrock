@@ -1,18 +1,25 @@
 {
-    "format_version": "1.20.80",
-    "minecraft:item": {
-        "description": {
-            "identifier": "betterend:amber_grass",
-            "menu_category": {
-                "category": "nature",
-                "group": "itemGroup.name.flower"
-            }
-        },
-        "components": {
-            "minecraft:icon": "amber_grass",
-            "minecraft:block_placer": {
-                "block": "betterend:amber_grass"
-            }
-        }
+  "format_version": "1.21.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "betterend:amber_grass",
+      "menu_category": {
+        "category": "nature",
+        "group": "minecraft:itemGroup.name.flower"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Amber Grass"
+      },
+      "minecraft:icon": "amber_grass",
+      "minecraft:compostable": {
+        "composting_chance": 100
+      },
+      "minecraft:block_placer": {
+        "block": "betterend:amber_grass",
+        "replace_block_item": true
+      }
     }
+  }
 }
