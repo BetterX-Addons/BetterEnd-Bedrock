@@ -1,4 +1,4 @@
-import { world } from "@minecraft/server";
+import { system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 const blockIndex = {
     "betterend:helix_tree_leaves": {},
@@ -9,7 +9,7 @@ const blockIndex = {
         random: 2,
     },
 };
-world.beforeEvents.worldInitialize.subscribe((data) => {
+system.beforeEvents.startup.subscribe((data) => {
     data.blockComponentRegistry.registerCustomComponent("betterend:amberland_index", {
         onPlace({ block }) {
             if (blockIndex[block.typeId] && blockIndex[block.typeId].random && !blockIndex[block.typeId].tall) {

@@ -1,4 +1,4 @@
-import { BlockPermutation, world } from "@minecraft/server";
+import { BlockPermutation, system, world } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 
 const blockIndex = {
@@ -11,7 +11,7 @@ const blockIndex = {
   },
 };
 
-world.beforeEvents.worldInitialize.subscribe((data) => {
+system.beforeEvents.startup.subscribe((data) => {
   data.blockComponentRegistry.registerCustomComponent("betterend:amberland_index", {
     onPlace({ block }) {
       if (blockIndex[block.typeId] && blockIndex[block.typeId].random && !blockIndex[block.typeId].tall) {
