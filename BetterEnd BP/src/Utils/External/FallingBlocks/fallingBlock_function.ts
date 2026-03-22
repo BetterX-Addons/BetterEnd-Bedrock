@@ -68,7 +68,7 @@ export function dropFallingEntity(entity, item) {
             const name = fallingBlock.sound.name === undefined ? `${fallingBlock.sound}` : `${fallingBlock.sound.name}`;
             const volume = fallingBlock.sound.volume === undefined ? 100 : `${fallingBlock.sound.volume}`;
             const pitch = fallingBlock.sound.pitch === undefined ? 1 : `${fallingBlock.sound.pitch}`;
-            entity.runCommandAsync(`playsound ${name} @a ~~~ ${volume} ${pitch}`);
+            entity.runCommand(`playsound ${name} @a ~~~ ${volume} ${pitch}`);
         }
         entity.remove();
     });

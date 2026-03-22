@@ -163,9 +163,9 @@ export const AllTags = [
 export function fogSoundsMusic(player, fog, sound, music, time) {
     if (!player.hasTag('in_biome')) {
         player.addTag('in_biome');
-        player.runCommandAsync(`stopsound @s`);
-        player.runCommandAsync(`fog @s remove end_fog`);
-        player.runCommandAsync(`fog @s push ${fog} end_fog`);
+        player.runCommand(`stopsound @s`);
+        player.runCommand(`fog @s remove end_fog`);
+        player.runCommand(`fog @s push ${fog} end_fog`);
         mc.system.runTimeout(() => {
             player.playSound(sound, { location: player.location });
             player.playSound(music, { location: player.location, volume: 0.3 });

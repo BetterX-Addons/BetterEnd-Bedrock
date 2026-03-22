@@ -82,8 +82,8 @@
       }
     ],
     "components": {
-      // "betterend:amberland_index": {},
-      // "betterend:particle_emitter": {},
+      "betterend:amberland_index": {},
+      "betterend:particle_emitter": {},
       "tag:minecraft:is_shears_item_destructible": {},
       "minecraft:map_color": "#b35b00",
       "tag:offset:-12": {},

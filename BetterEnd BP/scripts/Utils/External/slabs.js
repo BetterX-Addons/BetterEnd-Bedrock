@@ -52,9 +52,9 @@ export const slabComponent = {
                         selectedItem.amount -= 1;
                         equipment.setEquipment("Mainhand", selectedItem);
                     }
-                    player.runCommandAsync(`gamerule sendcommandfeedback false`);
-                    player.runCommandAsync(`give @s minecraft:water_bucket 1`);
-                    player.runCommandAsync(`gamerule sendcommandfeedback true`);
+                    player.runCommand(`gamerule sendcommandfeedback false`);
+                    player.runCommand(`give @s minecraft:water_bucket 1`);
+                    player.runCommand(`gamerule sendcommandfeedback true`);
                 }
                 // Apply the new permutation
                 block.setType(currentBlock);

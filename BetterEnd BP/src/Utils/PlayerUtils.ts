@@ -67,8 +67,8 @@ class PlayerUtils {
       const id = this.player.getDynamicProperty("betterend:ambient_stuff_id");
       id ? system.clearRun(id as number) : null;
       this.player.addTag(tag);
-      this.player.runCommandAsync(`fog @s remove end_fog`);
-      this.player.runCommandAsync(`fog @s push ${fog} end_fog`);
+      this.player.runCommand(`fog @s remove end_fog`);
+      this.player.runCommand(`fog @s push ${fog} end_fog`);
       this.playMusic(music, sound);
     }
   }
@@ -162,7 +162,7 @@ class PlayerUtils {
   }
 
   private playMusic(music: string, sound: string) {
-    this.player.runCommandAsync(`stopsound @s`);
+    this.player.runCommand(`stopsound @s`);
     system.waitTicks(20);
     this.player.playSound(sound, { location: this.player.location });
     system.waitTicks(20);
@@ -172,7 +172,7 @@ class PlayerUtils {
     });
     // const id = system.runInterval(() => {
     //   this.player.setDynamicProperty("betterend:ambient_stuff_id", id);
-    //   this.player.runCommandAsync(`stopsound @s`);
+    //   this.player.runCommand(`stopsound @s`);
     //   system.waitTicks(20);
     //   this.player.playSound(sound, { location: this.player.location });
     //   system.waitTicks(20);
