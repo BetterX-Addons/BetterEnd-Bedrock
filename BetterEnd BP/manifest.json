@@ -4,11 +4,12 @@
     "name": "BetterEnd BP",
     "description": "by...",
     "uuid": "8ee24485-3137-4578-9673-2794c4f4fde7",
-    "version": [1, 0, 0],
-    "min_engine_version": [1, 21, 50]
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 26, 0 ]
   },
   "modules": [
     {
+      "language": "javascript",
       "type": "script",
       "uuid": "2ec8c1cd-6afd-4192-8a2f-e8e9e4326451",
       "entry": "scripts/index.js",
@@ -23,11 +24,14 @@
     },
     {
       "module_name": "@minecraft/server",
-      "version": "1.17.0"
+      "version": "2.4.0"
     },
     {
       "module_name": "@minecraft/server-ui",
-      "version": "1.2.0"
+      "version": "2.0.0"
     }
-  ]
+  ],
+  "metadata": {
+    "product_type": "addon"
+  }
 }
