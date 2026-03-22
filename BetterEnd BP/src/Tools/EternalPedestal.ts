@@ -1,6 +1,6 @@
-import { Block, world, BlockComponentPlayerInteractEvent, Vector3, EquipmentSlot, ItemStack } from "@minecraft/server";
+import { Block, world, BlockComponentPlayerInteractEvent, Vector3, EquipmentSlot, ItemStack, system } from "@minecraft/server";
 
-world.beforeEvents.worldInitialize.subscribe(e => {
+system.beforeEvents.startup.subscribe(e => {
     e.blockComponentRegistry.registerCustomComponent('betterend:eternal_pedestal', {
         onPlayerInteract(e: BlockComponentPlayerInteractEvent) {
             const { player, dimension, block } = e;

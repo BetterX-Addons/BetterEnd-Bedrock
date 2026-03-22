@@ -1,11 +1,12 @@
-import { world, Block, Player, ItemStack, Vector3 } from "@minecraft/server";
+import { world, Block, Player, ItemStack, Vector3, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 
 const structures: string[] = [ "lanceleaf1", "lanceleaf2" ];
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:lanceleaf_seed', {
-        onPlayerDestroy({ block, player }) {
+        
+        onPlayerBreak({ block, player }) {
             new PlantUtils(block, player).onBreakSeeds('betterend:lanceleaf_seed');
         },
         onPlayerInteract({ block, player }) {

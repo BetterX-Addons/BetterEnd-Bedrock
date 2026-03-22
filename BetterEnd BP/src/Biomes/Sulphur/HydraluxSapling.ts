@@ -1,4 +1,4 @@
-import { world, Block, Player, ItemStack, Vector3 } from "@minecraft/server";
+import { world, Block, Player, ItemStack, Vector3, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 
 const structures: string[] = [ 
@@ -12,7 +12,7 @@ const structures: string[] = [
     "hydralux_flower8"
 ];
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:hydralux_sapling', {
         onPlayerInteract({ block, player }) {
             const offset: Vector3 = {

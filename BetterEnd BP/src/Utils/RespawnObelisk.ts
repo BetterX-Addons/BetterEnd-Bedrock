@@ -1,8 +1,8 @@
 import { world, Block, Player, ItemStack, system, EquipmentSlot } from "@minecraft/server";
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:respawn_obelisk', {
-        onPlayerDestroy({ block }) {
+        onPlayerBreak({ block }) {
             const { x, y, z } = block.location;
             block.dimension.setBlockType({ x, y: y + 1 , z }, 'air');
             block.dimension.setBlockType({ x, y: y + 2 , z }, 'air');

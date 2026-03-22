@@ -1,11 +1,11 @@
-import { world, BlockPermutation } from "@minecraft/server";
+import { BlockPermutation, system } from "@minecraft/server";
 const plants = [
     { typeId: 'betterend:cyan_charnia', state: 'None', value: 0 },
     { typeId: 'betterend:red_charnia', state: 'None', value: 0 },
     { typeId: 'betterend:light_blue_charnia', state: 'None', value: 0 },
     { typeId: 'betterend:bubble_coral', state: 'betterend:rotation', value: -1 }
 ];
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:plant_generator', {
         onRandomTick({ block }) {
             const { dimension, location } = block;

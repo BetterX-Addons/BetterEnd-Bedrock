@@ -1,5 +1,5 @@
-import { world } from "@minecraft/server";
-world.beforeEvents.worldInitialize.subscribe((e) => {
+import { system } from "@minecraft/server";
+system.beforeEvents.startup.subscribe((e) => {
     e.blockComponentRegistry.registerCustomComponent('betterend:can_sit', {
         onPlayerInteract({ block, player }) {
             if (!player)

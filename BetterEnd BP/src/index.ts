@@ -17,7 +17,7 @@ import "./Utils/BlockUtils";
 import "./Utils/RespawnObelisk";
 
 world.afterEvents.playerBreakBlock.subscribe(({ player, itemStackAfterBreak }) => durability(player, itemStackAfterBreak));
-world.afterEvents.itemUseOn.subscribe(({ source, itemStack }) => durability(source, itemStack));
+world.afterEvents.itemUse.subscribe(({ source, itemStack }) => durability(source, itemStack));
 
 // index
 

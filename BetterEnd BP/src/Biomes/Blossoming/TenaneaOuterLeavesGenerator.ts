@@ -1,7 +1,7 @@
-import { world, Block, Player, ItemStack, Direction, Vector3, BlockPermutation } from "@minecraft/server";
+import { world, Block, Player, ItemStack, Direction, Vector3, BlockPermutation, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:tenanea_outer_leaves_generator', {
         onRandomTick({ block }) {
             return;

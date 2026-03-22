@@ -1,5 +1,5 @@
 import { world, Direction, BlockPermutation } from "@minecraft/server";
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:tenanea_outer_leaves_generator', {
         onRandomTick({ block }) {
             const { dimension: dim, location: loc } = block;

@@ -1,8 +1,8 @@
-import { world } from "@minecraft/server";
+import { system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:jungle_vine', {
-        onPlayerDestroy({ block, player }) {
+        onPlayerBreak({ block, player }) {
             const plantUtils = new PlantUtils(block, player);
             plantUtils.onBreak('betterend:jungle_vine');
         },

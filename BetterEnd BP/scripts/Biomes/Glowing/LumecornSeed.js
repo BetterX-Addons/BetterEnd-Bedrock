@@ -1,12 +1,12 @@
-import { world } from "@minecraft/server";
+import { system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 const structures = [
     "lumecorn1",
     "lumecorn2"
 ];
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:lumecorn_seed', {
-        onPlayerDestroy({ block, player }) {
+        onPlayerBreak({ block, player }) {
             new PlantUtils(block, player).onBreakSeeds('betterend:lumecorn_seed');
         },
         onPlayerInteract({ block, player }) {

@@ -1,4 +1,4 @@
-import { world, BlockPermutation } from "@minecraft/server";
+import { BlockPermutation, system } from "@minecraft/server";
 const plants = [
     {
         typeId: 'betterend:end_lotus_stem_plant',
@@ -11,7 +11,7 @@ const plants = [
         value: 4
     }
 ];
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:lotuslily', {
         onRandomTick({ block }) {
             const { dimension, location } = block;

@@ -1,8 +1,8 @@
-import { world, BlockPermutation } from "@minecraft/server";
+import { BlockPermutation, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:end_lotus_flower', {
-        onPlayerDestroy({ block, player }) {
+        onPlayerBreak({ block, player }) {
             new PlantUtils(block, player).onBreakSeeds('betterend:end_lotus_stem');
         },
         onTick({ block }) {

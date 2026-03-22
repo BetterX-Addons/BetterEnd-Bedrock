@@ -1,10 +1,10 @@
-import { world } from "@minecraft/server";
+import { world, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 const structures = ["bulb_vine"];
 ;
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:twisted_vine', {
-        onPlayerDestroy({ block, player }) {
+        onPlayerBreak({ block, player }) {
             const plantUtils = new PlantUtils(block, player);
             plantUtils.onBreak('betterend:twisted_vine');
         },

@@ -513,7 +513,7 @@ world.beforeEvents.playerBreakBlock.subscribe((data)=>{
     } catch  {}
 });
 let int = 0;
-world.beforeEvents.worldInitialize.subscribe((data)=>{
+system.beforeEvents.startup.subscribe((data)=>{
     //needed to stop crashes when leaving the world
     int = int + 1;
     if (int != 1) return;

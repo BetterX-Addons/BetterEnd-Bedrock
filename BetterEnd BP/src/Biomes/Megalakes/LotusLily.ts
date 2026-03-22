@@ -1,4 +1,4 @@
-import { world, Block, Player, ItemStack, BlockPermutation } from "@minecraft/server";
+import { world, Block, Player, ItemStack, BlockPermutation, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 
 const plants: { typeId: string, state: string, value: number }[] = [
@@ -14,7 +14,7 @@ const plants: { typeId: string, state: string, value: number }[] = [
     }
 ]
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:lotuslily', {
         onRandomTick({ block }) {
             const { dimension, location } = block;

@@ -1,9 +1,9 @@
-import { world } from "@minecraft/server";
+import { system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 const structures = ["blue_vine1", "blue_vine2", "blue_vine3"];
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:blue_vine_seed', {
-        onPlayerDestroy({ block, player }) {
+        onPlayerBreak({ block, player }) {
             new PlantUtils(block, player).onBreakSeeds('betterend:blue_vine_seed');
         },
         onPlayerInteract({ block, player }) {

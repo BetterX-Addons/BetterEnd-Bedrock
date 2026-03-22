@@ -1,9 +1,9 @@
 // Import necessary modules from Minecraft server API
-import { world, BlockPermutation, ItemStack } from '@minecraft/server';
+import { world, BlockPermutation, ItemStack, system } from '@minecraft/server';
 import { trapSet } from './main';
 
 // Subscribe to the 'worldInitialize' event to register custom components
-world.beforeEvents.worldInitialize.subscribe(eventData => {
+system.beforeEvents.startup.subscribe(eventData => {
     // Register a custom component named betterend:on_interact for trapdoor interaction
     eventData.blockComponentRegistry.registerCustomComponent('betterend:TD_interact', {
         // Define the behavior when a player interacts with the trapdoor block

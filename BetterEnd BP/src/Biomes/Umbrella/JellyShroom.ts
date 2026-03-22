@@ -1,4 +1,4 @@
-import { world, Block, Player, ItemStack, Vector3 } from "@minecraft/server";
+import { world, Block, Player, ItemStack, Vector3, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 
 const structures: string[] = [ 
@@ -10,7 +10,7 @@ const structures: string[] = [
 const y = [ -1, -1 ];
 const randomY = y[Math.floor(Math.random() * y.length)];
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:jellyshroom', {
         onPlayerInteract({ block, player }) {
             const offset: Vector3 = {

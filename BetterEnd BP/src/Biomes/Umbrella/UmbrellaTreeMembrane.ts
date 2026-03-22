@@ -1,6 +1,6 @@
-import { world } from "@minecraft/server";
+import { world, system } from "@minecraft/server";
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:umbrella_tree_membrane', {
         onStepOn({ block, entity }) {
             const velocity = entity?.getDynamicProperty('betterend:fall_velocity') as number;

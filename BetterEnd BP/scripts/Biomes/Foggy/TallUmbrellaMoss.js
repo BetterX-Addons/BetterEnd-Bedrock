@@ -1,6 +1,6 @@
-// import { world, Block, Player, ItemStack, BlockPermutation } from "@minecraft/server";
+// import { world, Block, Player, ItemStack, BlockPermutation, system } from "@minecraft/server";
 // import PlantUtils from "Biomes/PlantsUtils";
-// world.beforeEvents.worldInitialize.subscribe((data) => {
+// system.beforeEvents.startup.subscribe((data) => {
 //   data.blockComponentRegistry.registerCustomComponent("betterend:tall_umbrella_moss", {
 //     beforeOnPlayerPlace(args) {
 //       const { block } = args;
@@ -17,7 +17,7 @@
 //         args.cancel = true;
 //       }
 //     },
-//     onPlayerDestroy({ block, destroyedBlockPermutation, player }) {
+//     onPlayerBreak({ block, destroyedBlockPermutation, player }) {
 //       new PlantUtils(block, player).onBreak("betterend:tall_umbrella_moss");
 //       block.dimension.runCommand(
 //         `setblock ${block.location.x} ${

@@ -1,6 +1,6 @@
-import { world, Block } from "@minecraft/server";
+import { world, Block, system } from "@minecraft/server";
 
-world.beforeEvents.worldInitialize.subscribe((data) => {
+system.beforeEvents.startup.subscribe((data) => {
   data.blockComponentRegistry.registerCustomComponent("betterend:stalactite", {
     onTick({ block }) {
       const dim = block.dimension;

@@ -1,6 +1,6 @@
-import { world, Block, Player, ItemStack, Direction, BlockPermutation, Vector3 } from "@minecraft/server";
+import { world, Block, Player, ItemStack, Direction, BlockPermutation, Vector3, system } from "@minecraft/server";
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:budding_smaragdant_crystal', {
         onTick({ block }) {
             const { location: loc, dimension: dim } = block;

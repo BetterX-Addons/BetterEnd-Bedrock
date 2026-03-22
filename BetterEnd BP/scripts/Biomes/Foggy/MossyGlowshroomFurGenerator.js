@@ -1,5 +1,5 @@
-import { world, Direction, BlockPermutation } from "@minecraft/server";
-world.beforeEvents.worldInitialize.subscribe(data => {
+import { Direction, BlockPermutation, system } from "@minecraft/server";
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:mossy_glowshroom_fur_generator', {
         onRandomTick({ block }) {
             return;

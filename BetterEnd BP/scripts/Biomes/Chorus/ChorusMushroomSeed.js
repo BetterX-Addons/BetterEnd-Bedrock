@@ -1,8 +1,8 @@
-import { world } from "@minecraft/server";
+import { system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:chorus_mushroom_seed', {
-        onPlayerDestroy({ block, player }) {
+        onPlayerBreak({ block, player }) {
             new PlantUtils(block, player).onBreakSeeds('betterend:chorus_mushroom_seed');
         },
         onPlayerInteract({ block, player }) {

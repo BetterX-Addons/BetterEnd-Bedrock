@@ -1,4 +1,4 @@
-import { BlockPermutation, world } from "@minecraft/server";
+import { BlockPermutation, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 const blockIndex = {
     "betterend:creeping_moss": {},
@@ -32,7 +32,7 @@ const blockIndex = {
         random: 4
     }
 };
-world.beforeEvents.worldInitialize.subscribe((data) => {
+system.beforeEvents.startup.subscribe((data) => {
     data.blockComponentRegistry.registerCustomComponent("betterend:foggy_index", {
         beforeOnPlayerPlace(args) {
             const { block } = args;
@@ -55,7 +55,7 @@ world.beforeEvents.worldInitialize.subscribe((data) => {
                 new PlantUtils(block).onPlace(Number(blockIndex[block.typeId].random));
             }
         },
-        onPlayerDestroy({ block, player, destroyedBlockPermutation }) {
+        onPlayerBreak({ block, player, destroyedBlockPermutation }) {
             if (blockIndex[destroyedBlockPermutation.type.id]) {
                 new PlantUtils(block, player).onBreak(destroyedBlockPermutation.type.id);
                 blockIndex[destroyedBlockPermutation.type.id].tall &&

@@ -1,9 +1,9 @@
-import { world, Block, Player, ItemStack, Vector3, BlockPermutation } from "@minecraft/server";
+import { world, Block, Player, ItemStack, Vector3, BlockPermutation, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:tenanea_flowers_purple_and_blue', {
-        onPlayerDestroy({ block, player }) {
+        onPlayerBreak({ block, player }) {
             const plantUtils = new PlantUtils(block, player);
             plantUtils.onBreak('betterend:tenanea_flowers_purple_and_blue');
         },

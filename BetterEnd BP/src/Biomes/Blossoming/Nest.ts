@@ -1,7 +1,7 @@
-import { world, Block, Player, ItemStack, Entity, Vector3, BlockPermutation } from "@minecraft/server";
+import { world, Block, Player, ItemStack, Entity, Vector3, BlockPermutation, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:nest', {
         onTick({ block }) {
             const { dimension: dim, location } = block;
@@ -18,7 +18,7 @@ world.beforeEvents.worldInitialize.subscribe(data => {
             world.setDynamicProperty(fiberId, 0);
             world.setDynamicProperty(silkId, 0);
         },
-        onPlayerDestroy({ block }) {
+        onPlayerBreak({ block }) {
             const silkClass = new SilkMoths(block).destroy();
         },
         onPlayerInteract({ block }) {

@@ -1,4 +1,4 @@
-import { world } from "@minecraft/server";
+import { world, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 const structures = [
     "blossoming_tree1",
@@ -7,7 +7,7 @@ const structures = [
     "blossoming_tree4",
     "blossoming_tree5",
 ];
-world.beforeEvents.worldInitialize.subscribe((data) => {
+system.beforeEvents.startup.subscribe((data) => {
     data.blockComponentRegistry.registerCustomComponent("betterend:tenanea_sapling", {
         onPlayerInteract({ block, player }) {
             const offset = {

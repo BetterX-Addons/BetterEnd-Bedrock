@@ -1,4 +1,4 @@
-import { world } from "@minecraft/server";
+import { system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 const blockIndex = {
     "betterend:lucernia_leaves": {
@@ -32,14 +32,14 @@ const blockIndex = {
         random: 2
     }
 };
-world.beforeEvents.worldInitialize.subscribe((data) => {
+system.beforeEvents.startup.subscribe((data) => {
     data.blockComponentRegistry.registerCustomComponent("betterend:lucernia_index", {
         onPlace({ block }) {
             if (blockIndex[block.typeId] && blockIndex[block.typeId].random && !blockIndex[block.typeId].tall) {
                 new PlantUtils(block).onPlace(Number(blockIndex[block.typeId].random));
             }
         },
-        onPlayerDestroy({ block, player, destroyedBlockPermutation }) {
+        onPlayerBreak({ block, player, destroyedBlockPermutation }) {
             if (blockIndex[destroyedBlockPermutation.type.id]) {
                 new PlantUtils(block, player).onBreak(destroyedBlockPermutation.type.id);
                 blockIndex[destroyedBlockPermutation.type.id].tall &&

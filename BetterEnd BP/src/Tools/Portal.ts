@@ -1,6 +1,6 @@
 import { Block, world, BlockComponentTickEvent, Vector3, system, GameMode } from "@minecraft/server";
 
-world.beforeEvents.worldInitialize.subscribe(e => {
+system.beforeEvents.startup.subscribe(e => {
     e.blockComponentRegistry.registerCustomComponent('betterend:portal', {
         onTick(e: BlockComponentTickEvent) {
             const { block, dimension } = e;

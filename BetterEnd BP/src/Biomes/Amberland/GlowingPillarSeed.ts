@@ -1,11 +1,11 @@
-import { world, Block, Player, ItemStack, Vector3 } from "@minecraft/server";
+import { world, Block, Player, ItemStack, Vector3, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 
 const structures: string[] = [ "glowing_pillar1", "glowing_pillar2" ];
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:glowing_pillar_seed', {
-        onPlayerDestroy({ block, player }) {
+        onPlayerBreak({ block, player }) {
             new PlantUtils(block, player).onBreakSeeds('betterend:glowing_pillar_seed');
         },
         onPlayerInteract({ block, player }) {

@@ -197,7 +197,7 @@ const trapSet = new Set([
 
 // This handles the durality damage for all blocks (except slabs - handled in slabs.js) and removing the block above for fences and gates
 const DestroyComponent = {
-  onPlayerDestroy(e) {
+  onPlayerBreak(e) {
     const { block, player } = e;
     const aboveBlock = block.above();
     const blockBelow = block.below();
@@ -252,7 +252,7 @@ let lastBrokenBlockType = null;
 let lastBrokenBlockIsDouble = false;
 
 // Use this world initialization event to register all custom components
-world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
+system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
   for (const [componentName, componentImplementation] of Object.entries(customComponents)) {
     blockComponentRegistry.registerCustomComponent(componentName, componentImplementation);
   }

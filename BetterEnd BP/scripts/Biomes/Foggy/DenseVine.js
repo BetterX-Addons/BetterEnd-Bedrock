@@ -1,5 +1,5 @@
-import { world } from "@minecraft/server";
-world.beforeEvents.worldInitialize.subscribe((data) => {
+import { system } from "@minecraft/server";
+system.beforeEvents.startup.subscribe((data) => {
     data.blockComponentRegistry.registerCustomComponent("betterend:dense_vine", {
         beforeOnPlayerPlace(args) {
             const above = args.block.above();
@@ -18,7 +18,7 @@ world.beforeEvents.worldInitialize.subscribe((data) => {
                 args.permutationToPlace = args.permutationToPlace.withState("betterend:growth", 2);
             }
         },
-        onPlayerDestroy(args) {
+        onPlayerBreak(args) {
             const block = args.block;
             if (block.above().typeId === args.destroyedBlockPermutation.type.id) {
                 block.above().setPermutation(block.above().permutation.withState("betterend:growth", 2));

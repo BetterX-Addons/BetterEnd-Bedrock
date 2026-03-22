@@ -1,8 +1,8 @@
-import { world, Block } from "@minecraft/server";
+import { world, Block, system } from "@minecraft/server";
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:aurora_crystal', {
-        onPlayerDestroy({ block }) {
+        onPlayerBreak({ block }) {
             const auroraCrystal = new AuroraCrystal(block);
             auroraCrystal.onDestroy();
         },

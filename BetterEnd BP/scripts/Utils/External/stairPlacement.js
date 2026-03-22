@@ -1,5 +1,5 @@
-import { world } from "@minecraft/server";
-world.beforeEvents.worldInitialize.subscribe(initEvent => {
+import { system } from "@minecraft/server";
+system.beforeEvents.startup.subscribe(initEvent => {
     initEvent.blockComponentRegistry.registerCustomComponent('betterend:stair_placement', {
         onPlace: e => {
             const { block } = e;

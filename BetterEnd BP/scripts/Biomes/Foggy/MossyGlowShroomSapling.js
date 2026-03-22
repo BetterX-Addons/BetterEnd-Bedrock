@@ -1,9 +1,9 @@
-import { world } from "@minecraft/server";
+import { world, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 const structures = ["minor_foggy_tree1", "minor_foggy_tree2", "big_foggy_tree1"];
 const y = [-2, -3];
 const randomY = y[Math.floor(Math.random() * y.length)];
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:mossy_glowshroom_sapling', {
         onPlayerInteract({ block, player }) {
             const offset = {

@@ -1,5 +1,5 @@
-import { world, ItemStack } from "@minecraft/server";
-world.beforeEvents.worldInitialize.subscribe(data => {
+import { world, ItemStack, system } from "@minecraft/server";
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:nest', {
         onTick({ block }) {
             const { dimension: dim, location } = block;
@@ -16,7 +16,7 @@ world.beforeEvents.worldInitialize.subscribe(data => {
             world.setDynamicProperty(fiberId, 0);
             world.setDynamicProperty(silkId, 0);
         },
-        onPlayerDestroy({ block }) {
+        onPlayerBreak({ block }) {
             const silkClass = new SilkMoths(block).destroy();
         },
         onPlayerInteract({ block }) {

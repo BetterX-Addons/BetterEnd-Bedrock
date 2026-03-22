@@ -1,5 +1,5 @@
-import { world, Direction, BlockPermutation } from "@minecraft/server";
-world.beforeEvents.worldInitialize.subscribe(data => {
+import { Direction, BlockPermutation, system } from "@minecraft/server";
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:lucernia_outer_leaves_generator', {
         onRandomTick({ block }) {
             return;

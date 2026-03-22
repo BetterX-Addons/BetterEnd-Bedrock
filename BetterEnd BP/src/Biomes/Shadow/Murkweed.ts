@@ -1,7 +1,7 @@
 import { world, Block, Player, ItemStack, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:murkweed', {
         onTick({ block }) {
             new PlantUtils(block).spawnParticle('minecraft:evoker_spell');

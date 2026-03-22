@@ -1,4 +1,4 @@
-import { world } from "@minecraft/server";
+import { world, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 const structures = [
     "umbrella_tree1",
@@ -10,7 +10,7 @@ const structures = [
 ];
 const y = [-2, -3];
 const randomY = y[Math.floor(Math.random() * y.length)];
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:umbrella_tree_sapling', {
         onPlayerInteract({ block, player }) {
             const offset = {

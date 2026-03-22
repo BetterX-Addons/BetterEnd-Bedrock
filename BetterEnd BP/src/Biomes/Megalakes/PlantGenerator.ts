@@ -1,4 +1,4 @@
-import { world, Block, Player, ItemStack, BlockPermutation } from "@minecraft/server";
+import { world, Block, Player, ItemStack, BlockPermutation, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 
 const plants = [
@@ -8,7 +8,7 @@ const plants = [
     { typeId: 'betterend:bubble_coral', state: 'betterend:rotation', value: -1 }
 ];
 
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:plant_generator', {
         onRandomTick({ block }) {
             const { dimension, location } = block;

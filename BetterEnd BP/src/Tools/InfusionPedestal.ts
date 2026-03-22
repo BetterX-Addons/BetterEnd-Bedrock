@@ -1,4 +1,4 @@
-import { Block, world, BlockComponentTickEvent, Vector3 } from "@minecraft/server";
+import { Block, world, BlockComponentTickEvent, Vector3, system } from "@minecraft/server";
 
 const pedestals: Vector3[] = [
     { x: 0, y: 0, z: 3 },
@@ -11,7 +11,7 @@ const pedestals: Vector3[] = [
     { x: 0, y: 0, z: -3 },
 ]
 
-world.beforeEvents.worldInitialize.subscribe(e => {
+system.beforeEvents.startup.subscribe(e => {
     e.blockComponentRegistry.registerCustomComponent('betterend:infusion_pedestal', {
         onTick(e: BlockComponentTickEvent) {
             const block = e.block;

@@ -5,7 +5,7 @@ import { checkBlocksToFall, forceBlocksToFall, checkBlocksAroundToFall, dropFall
  * There is no need to change anything here
  * the changes are only in the >>> fallingBlocksList.js <<< file
  */
-world.beforeEvents.worldInitialize.subscribe((initEvent) => {
+system.beforeEvents.startup.subscribe((initEvent) => {
     initEvent.blockComponentRegistry.registerCustomComponent("falling_block:custom_component", {
         beforeOnPlayerPlace: (e) => {
             const { block } = e;

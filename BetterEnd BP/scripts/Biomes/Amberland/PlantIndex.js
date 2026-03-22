@@ -16,7 +16,7 @@ system.beforeEvents.startup.subscribe((data) => {
                 new PlantUtils(block).onPlace(Number(blockIndex[block.typeId].random));
             }
         },
-        onPlayerDestroy({ block, player, destroyedBlockPermutation }) {
+        onPlayerBreak({ block, player, destroyedBlockPermutation }) {
             if (blockIndex[destroyedBlockPermutation.type.id]) {
                 new PlantUtils(block, player).onBreak(destroyedBlockPermutation.type.id);
                 blockIndex[destroyedBlockPermutation.type.id].tall &&
