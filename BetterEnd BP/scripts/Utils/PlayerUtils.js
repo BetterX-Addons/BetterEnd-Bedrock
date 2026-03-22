@@ -1,4 +1,4 @@
-import { EquipmentSlot, MinecraftDimensionTypes, Player, system, } from "@minecraft/server";
+import { EquipmentSlot, Player, system, } from "@minecraft/server";
 import { BiomeTags, CaveBiomesTag, AllTags } from "./BiomeTags";
 import { Armors } from "./ArmorUtils";
 Player.prototype.climb = function () {
@@ -99,7 +99,7 @@ class PlayerUtils {
         }
     }
     getBiome() {
-        if (this.dimension.id !== MinecraftDimensionTypes.theEnd)
+        if (this.dimension.id !== "minecraft:the_end")
             return;
         for (let i = 50; i <= 94; i++) {
             const block = this.dimension.getBlock({

@@ -1,7 +1,6 @@
 import {
   Dimension,
   EquipmentSlot,
-  MinecraftDimensionTypes,
   Player,
   system,
   Vector3,
@@ -120,7 +119,7 @@ class PlayerUtils {
   }
 
   private getBiome() {
-    if (this.dimension.id !== MinecraftDimensionTypes.theEnd) return;
+    if (this.dimension.id !== "minecraft:the_end") return;
 
     for (let i = 50; i <= 94; i++) {
       const block = this.dimension.getBlock({

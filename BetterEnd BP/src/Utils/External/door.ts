@@ -1,17 +1,17 @@
-import { world, system, MinecraftDimensionTypes, ItemStack, BlockPermutation } from '@minecraft/server';
+import { world, system, ItemStack, BlockPermutation } from '@minecraft/server';
 //converts the dimensionID to a Y value
 function dimensionToHeight(dimension) {
     const heights = [
         {
-            id: MinecraftDimensionTypes.overworld,
+            id: "minecraft:overworld",
             maxHeight: 320
         },
         {
-            id: MinecraftDimensionTypes.nether,
+            id: "minecraft:nether",
             maxHeight: 128
         },
         {
-            id: MinecraftDimensionTypes.theEnd,
+            id: "minecraft:the_end",
             maxHeight: 256
         }
     ];

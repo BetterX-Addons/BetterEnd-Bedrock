@@ -33,7 +33,7 @@ class BlockUtils {
 system.beforeEvents.startup.subscribe(e => {
     e.blockComponentRegistry.registerCustomComponent('betterend:particle_emitter', {
         onRandomTick({ block }) {
-            new BlockUtils(block).particleEmitter()
+            new BlockUtils(block).particleEmitter();
         }
     });
 });
