@@ -1,4 +1,4 @@
-import { world } from "@minecraft/server";
+import { system } from "@minecraft/server";
 class BlockUtils {
     constructor(block) {
         this.block = block;
@@ -24,7 +24,7 @@ class BlockUtils {
         }
     }
 }
-world.beforeEvents.worldInitialize.subscribe(e => {
+system.beforeEvents.startup.subscribe(e => {
     e.blockComponentRegistry.registerCustomComponent('betterend:particle_emitter', {
         onRandomTick({ block }) {
             new BlockUtils(block).particleEmitter();

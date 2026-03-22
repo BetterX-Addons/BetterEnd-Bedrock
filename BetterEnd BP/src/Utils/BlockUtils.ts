@@ -1,4 +1,4 @@
-import { Block, Dimension, MolangVariableMap, Vector3, world } from "@minecraft/server";
+import { Block, Dimension, MolangVariableMap, system, Vector3, world } from "@minecraft/server";
 
 class BlockUtils {
     private block: Block;
@@ -30,7 +30,7 @@ class BlockUtils {
 
 
 
-world.beforeEvents.worldInitialize.subscribe(e => {
+system.beforeEvents.startup.subscribe(e => {
     e.blockComponentRegistry.registerCustomComponent('betterend:particle_emitter', {
         onRandomTick({ block }) {
             new BlockUtils(block).particleEmitter()
