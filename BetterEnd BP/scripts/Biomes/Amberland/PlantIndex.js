@@ -3,7 +3,7 @@ import PlantUtils from "Biomes/PlantsUtils";
 const blockIndex = {
     "betterend:helix_tree_leaves": {},
     "betterend:amber_grass": {
-        random: 1,
+        random: 3,
     },
     "betterend:bulb_moss": {
         random: 2,
