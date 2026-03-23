@@ -44,12 +44,12 @@
     {
       "folder_name": "with_fogs",
       "name": "With Fogs",
-      "memory_tier": 0
+      "memory_tier": 1
     },
     {
       "folder_name": "without_fogs",
       "name": "Without Fogs",
-      "memory_tier": 1
+      "memory_tier": 0
     }
   ],
   "metadata": {
