@@ -1741,9 +1741,6 @@
     "cave_pumpkin_lantern_bottom": {
       "textures": "textures/blocks/caves/plants/cave_pumpkin_lantern_bottom"
     },
-    "cave_pumpkin_lantern_top": {
-      "textures": "textures/blocks/caves/plants/cave_pumpkin_lantern_bottom"
-    },
     "cave_pumpkin_top": {
       "textures": "textures/blocks/caves/plants/cave_pumpkin_top"
     },

@@ -1,20 +1,20 @@
-import { world, BlockPermutation } from "@minecraft/server";
+import { BlockPermutation, system } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
-world.beforeEvents.worldInitialize.subscribe(data => {
+system.beforeEvents.startup.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:cave_pumpkin_seed', {
-        onPlayerDestroy({ block, player }) {
+        onPlayerBreak({ block, player }) {
             new PlantUtils(block, player).onBreakSeeds('betterend:cave_pumpkin_seed');
         },
         onPlayerInteract({ block, player }) {
             const state = block.permutation.getState('betterend:growth');
-            if (state == 3)
+            if (state == 2)
                 spawnPumpkin(block);
             if (state < 3)
                 new PlantUtils(block, player).boneMealGrowth(3, false, null, null, false);
         },
         onRandomTick({ block }) {
             const state = block.permutation.getState('betterend:growth');
-            if (state == 3)
+            if (state == 2)
                 spawnPumpkin(block);
             if (state < 3)
                 new PlantUtils(block).boneMealGrowth(3, false, null, null, false);
@@ -27,7 +27,7 @@ world.beforeEvents.worldInitialize.subscribe(data => {
 });
 function spawnPumpkin(block) {
     const state = block.permutation.getState('betterend:growth');
-    if (state === 3) {
+    if (state === 2) {
         const downLoc = {
             x: block.location.x,
             y: block.location.y - 1,

@@ -159,8 +159,8 @@
               "ambient_occlusion": false,
               "face_dimming": false
             },
-            "cave_pumpkin_lantern_top": {
-              "texture": "cave_pumpkin_lantern_top",
+            "cave_pumpkin_top": {
+              "texture": "cave_pumpkin_top",
               "render_method": "alpha_test",
               "ambient_occlusion": false,
               "face_dimming": false
@@ -195,8 +195,8 @@
               "ambient_occlusion": false,
               "face_dimming": false
             },
-            "cave_pumpkin_lantern_top": {
-              "texture": "cave_pumpkin_lantern_top",
+            "cave_pumpkin_top": {
+              "texture": "cave_pumpkin_top",
               "render_method": "alpha_test",
               "ambient_occlusion": false,
               "face_dimming": false
@@ -228,7 +228,8 @@
               "down"
             ],
             "block_filter": [
-              "betterend:cave_moss"
+              "betterend:cave_moss",
+              "betterend:cave_pumpkin_seed"
             ]
           }
         ]
